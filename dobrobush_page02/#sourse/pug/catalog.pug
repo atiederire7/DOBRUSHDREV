@@ -1,0 +1,96 @@
+.catalog 
+    .container
+        .catalog__content
+            .catalog__left-block
+                .catalog__path Главная / Каталог
+                .catalog__filter Фильтр
+                .catalog__category
+                    .category__title Категория
+                    .category__item
+                        input.category__checkbox(type="checkbox", name="furniture") 
+                        p.category__text Мебель 
+                    .category__item
+                        input.category__checkbox(type="checkbox", name="doors") 
+                        p.category__text Двери 
+                    .category__item
+                        input.category__checkbox(type="checkbox", name="ladders-and-accessories") 
+                        p.category__text Лестницы и комплектующие 
+                    .category__item
+                        input.category__checkbox(type="checkbox", name="lining") 
+                        p.category__text Вагонка 
+                    .category__item
+                        input.category__checkbox(type="checkbox", name="firewood") 
+                        p.category__text Дрова 
+                    .category__item
+                        input.category__checkbox(type="checkbox", name="roof") 
+                        p.category__text Кровля 
+                    .category__item
+                        input.category__checkbox(type="checkbox", name="decor") 
+                        p.category__text Декор 
+                    .category__item
+                        input.category__checkbox(type="checkbox", name="lumber") 
+                        p.category__text Пиломатериалы 
+                .catalog__price
+                    .price__title Цена
+                    .price__item
+                        input.price__checkbox(type="checkbox", name="price1")
+                        p.price__text 15 р. - 100 р.
+                    .price__item
+                        input.price__checkbox(type="checkbox", name="price2")
+                        p.price__text 100 р. - 500 р.
+                    .price__item
+                        input.price__checkbox(type="checkbox", name="price3")
+                        p.price__text от 500 р.
+                .catalog__material
+                    .material__title Материал
+                    .material__item
+                        input.material__checkbox(type="checkbox", name="pine")
+                        p.material__text Сосна
+                    .material__item
+                        input.material__checkbox(type="checkbox", name="spruce")
+                        p.material__text Ель
+                    .material__item
+                        input.material__checkbox(type="checkbox", name="oak")
+                        p.material__text Дуб
+                .catalog__color
+                    .color__title Цвет
+                    .color__item
+                        input.color__checkbox(type="checkbox", name="color1")
+                    .color__item
+                        input.color__checkbox(type="checkbox", name="color2")
+                    .color__item
+                        input.color__checkbox(type="checkbox", name="color3")
+                    .color__item
+                        input.color__checkbox(type="checkbox", name="color4")
+                    .color__item
+                        input.color__checkbox(type="checkbox", name="color5")
+            .catalog__right-block
+                select.catalog__select-filter(name="filter")
+                    option(selected value="s1") по популярности
+                    option(value="s2") по цене
+                .catalog__catalog
+                    .catalog__item
+                        img.catalog__img(src="", alt="")
+                        .catalog__title Вагонка (сосна, ель)
+                        .catalog__subtitle 14x88 см
+                        .catalog__button
+                            a.catalog__link(href="") В корзину
+                    .catalog__item
+                        img.catalog__img(src="", alt="")
+                        .catalog__title Вагонка (A,B)
+                        .catalog__subtitle 14x96 см
+                        .catalog__button
+                            a.catalog__link(href="") В корзину
+                    .catalog__item
+                        img.catalog__img(src="", alt="")
+                        .catalog__title Вагонка (сосна, ель)
+                        .catalog__subtitle 12.5x96 см
+                        .catalog__button
+                            a.catalog__link(href="") В корзину
+                    .catalog__item
+                        img.catalog__img(src="", alt="")
+                        .catalog__title Вагонка (сосна, ель)
+                        .catalog__subtitle 12.5x96 см
+                        .catalog__button
+                            a.catalog__link(href="") В корзину
+

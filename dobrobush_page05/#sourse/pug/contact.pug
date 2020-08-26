@@ -1,0 +1,16 @@
+.contact
+    .container
+        .contact__content
+            form.contact__form(action="")
+                input.form__name(type="text", name="name", placeholder="* Имя")
+                input.form__email(type="email", name="email" placeholder="* Email")
+                input.form__tel-num(type="tel", name="tel" placeholder="+ 375 (__) ___ - __ - __")
+                select.form__country(name="country" placeholder="* Страна")
+                    option.country__item(value="s1") Беларусь
+                    option.country__item(value="s2") Украина
+                    option.country__item(value="s3") Россия
+                    option.country__item(value="s4") Казахстан
+                    option.country__item(value="s5") Молдова
+                textarea.form__message(name="message", cols="30", rows="10")
+                input.form__file(type="file", name="file") 
+            .contact__file-info (Поддерживаемые форматы: Jpeg, png, pdf, doc, rtf, ppt, pptx)

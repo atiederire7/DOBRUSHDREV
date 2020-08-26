@@ -1,0 +1,19 @@
+.advantages {
+	&__content {
+		max-height: 640px;
+		// display: flex;
+		// justify-content: space-between;
+	}
+	&__title {
+		text-align: center;
+	}
+	&__list-of-advantages {
+		text-align: center;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__item {}
+	&__circle {}
+	&__img {}
+	&__text {}
+}

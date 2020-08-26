@@ -1,0 +1,25 @@
+.payment-and-delivery {
+	&__content {}
+	&__title {}
+	&__payment {}
+	&__payment-details {}
+	&__delivery-details {}
+}
+.container {
+}
+.payment {
+	&__title {}
+	&__text1 {}
+	&__text2 {}
+}
+.payment-details {
+	&__prompt {}
+	&__info {}
+	&__text1 {}
+	&__text2 {}
+}
+.delivery-details {
+	&__title {}
+	&__text1 {}
+	&__text2 {}
+}

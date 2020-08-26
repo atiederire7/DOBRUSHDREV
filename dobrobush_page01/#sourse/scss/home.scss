@@ -1,0 +1,50 @@
+.home {
+	background: url(../img/home-background.jpg) no-repeat center;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	height: 585px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	&__content {
+		padding: 0 10px 0 10px;
+	}
+	&__subtitle {
+		
+		font-size: 16px;
+	}
+	&__title {
+		margin-top: 38px;
+		margin-bottom: 108px;
+		font-size: 80px;
+		font-weight: bold;
+	}
+	&__button {
+		display: flex;
+		justify-content: center;
+	}
+	&__link {
+		margin: 0 auto;
+		display: block;
+		color: #fff;
+		// border: 1px solid #fff;
+		padding: 24px 80px;
+		background-color: #e9b979;
+		transition: 0.3s linear;
+		// height: 50px;
+		// width: 320px;
+		border-radius: 22px;
+		font-size: 20px;
+		&:hover{
+			background-color: #fff;
+			color: #e9b979;
+			
+		}
+	}
+}
+@media screen and (min-width: 1921px) {
+	.home {
+		height: 700px;
+	}
+}

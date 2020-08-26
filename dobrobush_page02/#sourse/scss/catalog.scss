@@ -1,0 +1,42 @@
+.catalog {
+	&__content {}
+	&__left-block {}
+	&__path {}
+	&__filter {}
+	&__category {}
+	&__price {}
+	&__material {}
+	&__color {}
+	&__right-block {}
+	&__select-filter {}
+	&__catalog {}
+	&__item {}
+	&__img {}
+	&__title {}
+	&__subtitle {}
+	&__button {}
+	&__link {}
+}
+.category {
+	&__title {}
+	&__item {}
+	&__checkbox {}
+	&__text {}
+}
+.price {
+	&__title {}
+	&__item {}
+	&__checkbox {}
+	&__text {}
+}
+.material {
+	&__title {}
+	&__item {}
+	&__checkbox {}
+	&__text {}
+}
+.color {
+	&__title {}
+	&__item {}
+	&__checkbox {}
+}

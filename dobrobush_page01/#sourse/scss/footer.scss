@@ -1,0 +1,119 @@
+.footer {
+	margin-top: auto;
+	width:100%;
+	background-color: #e9b979;
+	font-weight: bold;
+	&__content {
+		// padding-top: 78px;
+		height: 250px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	&__left-block {
+		margin-top: 80px;
+		line-height: 1.5;
+		display: flex;
+		flex-direction: column;
+		// justify-content: center;
+		max-width: 260px;
+		// border: 1px solid #000;
+	}
+	&__address {
+		// border: 1px solid #000;
+		// line-height: 1.5;
+		margin-bottom: 20px;
+	}
+	&__operating-mode {
+		// border: 1px solid #000;
+		// max-width: 150px;
+		// line-height: 1.5;
+	}
+	&__center-block {
+		margin-top: 80px;
+		display: flex;
+		flex-direction: column;
+		// justify-content: center;
+		text-align: center;
+		width: 260px;
+		// border: 1px solid #000;
+	}
+	&__logo {
+		// margin-left: 10px;
+		// mb
+	}
+	&__title {
+		margin-bottom: 10px;
+	}
+	&__subtitle {}
+	&__right-block {
+		margin-top: 80px;
+		padding-left: 130px;
+		
+		display: flex;
+		flex-direction: column;
+		// justify-content: center;
+		width: 260px;
+		// border: 1px solid #000;
+	}
+	&__tel-num {
+		// line-height: 1.5;
+		text-align: center;
+		// border: 1px solid #000;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__list-of-soc-net {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 48px;
+		// border: 1px solid #000;
+		width: 80px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__whatsapp {}
+	&__telegram {}
+	&__viber {}
+}
+.tel-num {
+	&__title {
+		margin-left: 45px;
+		margin-bottom: 13px;
+	}
+	&__tel-num1 {
+		margin-bottom: 5px;
+	}
+	&__tel-num2 {}
+}
+.footer-logo {
+	&__img {
+		// border: 1px solid #000;
+		margin-bottom: 10px;
+		// display: block;
+		width: 59px;
+		height: 37px;
+	}
+}
+.whatsapp {
+	&__img {
+		display: block;
+		height: 15px;
+		width: 15px;
+	}
+}
+.telegram {
+	&__img {
+		display: block;
+		width: 19px;
+		height: 15px;
+	}
+}
+.viber {
+	&__img {
+		display: block;
+		width: 14px;
+		height: 15px;
+	}
+}
