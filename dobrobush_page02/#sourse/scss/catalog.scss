@@ -1,15 +1,29 @@
 .catalog {
-	border: 1px solid #000;
-	width: 38.8%;
-	&__content {}
-	&__left-block {}
-	&__path {}
-	&__filter {}
+	background-color: #666;
+	font-size: 18px;
+	&__content {
+		display: flex;
+	}
+	&__left-block {
+		width: 38.8%;
+		border: 1px solid #000;
+	}
+	&__path {
+		font-weight: 700;
+	}
+	&__filter {
+		font-weight: 700;
+		padding-top: 45px;
+		padding-bottom: 41px;
+	}
 	&__category {}
 	&__price {}
 	&__material {}
 	&__color {}
-	&__right-block {}
+	&__right-block {
+		width: 61.2%;
+		border: 1px solid #000;
+	}
 	&__select-filter {}
 	&__catalog {}
 	&__item {}
@@ -20,25 +34,50 @@
 	&__link {}
 }
 .category {
-	&__title {}
-	&__item {}
+	&__title {
+		padding-bottom: 19px;
+		font-weight: 700;
+	}
+	&__item {
+		display: flex;
+		padding-bottom: 22px;
+	}
 	&__checkbox {}
 	&__text {}
 }
 .price {
-	&__title {}
-	&__item {}
+	&__title {
+		font-weight: 700;
+		padding-top: 42px;
+		padding-bottom: 19px;
+	}
+	&__item {
+		display: flex;
+		padding-bottom: 19px;
+	}
 	&__checkbox {}
 	&__text {}
 }
 .material {
-	&__title {}
-	&__item {}
+	&__title {
+		font-weight: 700;
+		padding-bottom: 19px;
+	}
+	&__item {
+		display: flex;
+		padding-bottom: 25px;
+	}
 	&__checkbox {}
 	&__text {}
 }
 .color {
-	&__title {}
-	&__item {}
+	display: flex;
+	&__title {
+		font-weight: 700;
+		padding-bottom: 42px;
+	}
+	&__item {
+		// display: flex;
+	}
 	&__checkbox {}
 }

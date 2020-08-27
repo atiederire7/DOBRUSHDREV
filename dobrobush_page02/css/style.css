@@ -75,17 +75,60 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 .catalog {
-  border: 1px solid #000;
-  width: 38.8%;
+  background-color: #666;
+  font-size: 18px;
 }
-.watched {
-  border: 1px solid red;
-  width: 1000px;
-}
-.wrapper {
+.catalog__content {
   display: flex;
 }
-
+.catalog__left-block {
+  width: 38.8%;
+  border: 1px solid #000;
+}
+.catalog__path {
+  font-weight: 700;
+}
+.catalog__filter {
+  font-weight: 700;
+  padding-top: 45px;
+  padding-bottom: 41px;
+}
+.catalog__right-block {
+  width: 61.2%;
+  border: 1px solid #000;
+}
+.category__title {
+  padding-bottom: 19px;
+  font-weight: 700;
+}
+.category__item {
+  display: flex;
+  padding-bottom: 22px;
+}
+.price__title {
+  font-weight: 700;
+  padding-top: 42px;
+  padding-bottom: 19px;
+}
+.price__item {
+  display: flex;
+  padding-bottom: 19px;
+}
+.material__title {
+  font-weight: 700;
+  padding-bottom: 19px;
+}
+.material__item {
+  display: flex;
+  padding-bottom: 25px;
+}
+.color {
+  display: flex;
+}
+.color__title {
+  font-weight: 700;
+  padding-bottom: 42px;
+}
 .container {
   overflow: hidden;
   max-width: 1440px;
