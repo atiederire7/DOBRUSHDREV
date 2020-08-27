@@ -1,4 +1,5 @@
 .catalog {
+	margin-bottom: 247px;
 	// background-color: #666;
 	font-size: 18px;
 	&__content {
@@ -9,10 +10,12 @@
 		// border: 1px solid #000;
 	}
 	&__path {
+		color: #686868;
 		padding-top: 46px;
 		font-weight: 700;
 	}
 	&__filter {
+		color: #686868;
 		font-weight: 700;
 		padding-top: 45px;
 		padding-bottom: 41px;
@@ -68,21 +71,27 @@
 	}
 }
 .category {
+	
 	&__title {
+		color: #686868;
 		padding-bottom: 19px;
 		font-weight: 700;
 	}
 	&__item {
 		display: flex;
 		padding-bottom: 22px;
+		color: #686868;
 	}
 	&__checkbox {
-		margin-right: 5px;
+		display: none;
 	}
-	&__text {}
+	&__text {
+		margin-left: 5px;
+	}
 }
 .price {
 	&__title {
+		color: #686868;
 		font-weight: 700;
 		padding-top: 42px;
 		padding-bottom: 19px;
@@ -98,6 +107,7 @@
 }
 .material {
 	&__title {
+		color: #686868;
 		font-weight: 700;
 		padding-bottom: 19px;
 	}
@@ -113,11 +123,42 @@
 .color {
 	display: flex;
 	&__title {
+		color: #686868;
 		font-weight: 700;
 		padding-bottom: 42px;
 	}
 	&__item {
 		// display: flex;
 	}
-	&__checkbox {}
+	&__checkbox {
+		border: 1px solid red;
+		background-color: red;
+		color: red;
+		
+	}
+}
+
+.fake {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #000507;
+	position: relative;
+}
+.fake::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: block;
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	opacity: 0;
+	// transition: .1s;
+}
+
+.category__checkbox:checked + .fake::before {
+	opacity: 1;
 }
