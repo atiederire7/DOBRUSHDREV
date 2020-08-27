@@ -3,3 +3,14 @@
 @import "catalog";
 @import "watched";
 // @import "footer";
+.wrapper {
+    display: flex;
+}
+.container {
+    overflow: hidden;
+    // min-height: 100%;
+    // width: 1440px;
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
