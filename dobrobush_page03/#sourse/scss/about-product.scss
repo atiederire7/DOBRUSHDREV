@@ -2,8 +2,10 @@
 	&__content {
 		display: flex;
 		justify-content: space-between;
+		flex-wrap: wrap;
 	}
 	&__path {
+		margin-top: 46px;
 		margin-bottom: 90px;
 	}
 	&__left-block {
@@ -29,7 +31,6 @@
 	&__right-block {
 		border: 1px solid #000;
 		width: 725px;
-		// border: 1px solid #000;
 	}
 	&__title {
 		border: 1px solid #000;
@@ -52,15 +53,27 @@
 		}
 	}
 	&__select-color {
+
+		display: flex;
+		
 		margin-top: 30px;
-		margin-bottom: 34px;
+		// padding-bottom: 34px;
 		border: 1px solid #000;
+		div {
+			padding-top: 8px;
+			font-weight: 700;
+			color: #282828;
+		}
 	}
 	&__quantity {}
 	&__button {
-		margin-top: 90px;
+		position: relative;
+		bottom: 0;
+		// margin-top: 90px;
+		margin-top: 100px;
 	}
 	&__link {
+		
 		border-radius: 40px;
 		border: 2px solid #e9b979;
 		color: #e9b979;
@@ -81,11 +94,15 @@
 	justify-content: space-between;
 }
 .select-color {
-	&__color1 {}
-	&__color2 {}
-	&__color3 {}
-	&__color4 {}
-	&__color5 {}
+	&__color {
+		display: none;
+		
+	}
+}
+.color {
+	&__item {
+		padding-left: 22px;
+	}
 }
 .quantity {
 	&__button-left {}
@@ -110,8 +127,8 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	display: block;
-	width: 25px;
-	height: 25px;
+	width: 20px;
+	height: 20px;
 	background-color: #fff;
 	opacity: 0;
 	transition: .3s;
