@@ -64,16 +64,21 @@
 		color: #8a8a8a;
 	}
 	&__button {
-		border: 2px solid #e9b979;
-		border-radius: 20px;
+		
 	}
 	&__link {
 		color: #e9b979;
-		
 		font-weight: 700;
-		
-		margin: 10px;
+		padding: 9px;
 		font-size: 9px;
+		border: 2px solid #e9b979;
+		border-radius: 20px;
+		transition: .3s;
+		&:hover {
+			background-color: #e9b979;
+			border: 0.1px solid #fff;
+			color: #fff;
+		}
 	}
 }
 .category {
@@ -142,7 +147,9 @@
 		
 		// display: flex;
 	}
-	&__checkbox {}
+	&__checkbox {
+		// display: none;
+	}
 }
 
 .fake {
@@ -175,4 +182,36 @@
 }
 .price__checkbox:checked + .fake::before {
 	opacity: 1;
+}
+
+.fake-r {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	transition: .3s;
+	&:hover {
+		background-color: #fff;
+	}
+}
+
+.fake-r1 {
+	border: 5px solid #214c16;
+	background-color: #214c16;
+}
+.fake-r2 {
+	border: 5px solid #d99500;
+	background-color: #d99500;
+}
+.fake-r3 {
+	border: 5px solid #6c977f;
+	background-color: #6c977f;
+}
+.fake-r4 {
+	border: 5px solid #847567;
+	background-color: #847567;
+}
+.fake-r5 {
+	border: 5px solid #e2907a;
+	background-color: #e2907a;
 }

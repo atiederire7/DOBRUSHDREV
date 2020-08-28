@@ -1,7 +1,11 @@
 @import "nullstyle";
-@import "header";
+// @import "header";
 @import "about-product";
 @import "watched";
-@import "footer";
+// @import "footer";
 
-.container {}
+.container {
+    overflow: hidden;
+    max-width: 1440px;
+    margin: 0 auto;
+}
