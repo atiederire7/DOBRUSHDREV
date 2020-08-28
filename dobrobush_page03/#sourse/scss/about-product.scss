@@ -94,16 +94,32 @@
 	&__button-right {}
 	&__right-link {}
 }
-
+//y
 .fake {
 	display: inline-block;
 	width: 30px;
 	height: 30px;
-	border-radius: 50%;
+	position: relative;
+	border-radius: 50%;	
+}
+//y
+.fake::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+	opacity: 0;
 	transition: .3s;
-	&:hover {
-		background-color: #fff;
-	}
+	border-radius: 50%;
+	// border: 5px solid #000;
+}
+.select-color__color:checked + .fake::before {
+	opacity: 1;
 }
 
 .fake-1 {
@@ -125,4 +141,9 @@
 .fake-5 {
 	border: 5px solid #e2907a;
 	background-color: #e2907a;
+	
+}
+
+.price__checkbox:checked {
+	opacity: 1;
 }
