@@ -3,7 +3,7 @@
 	&__content {}
 	&__block2 {
 		display: flex;
-		border: 1px solid red;
+		// border: 1px solid red;
 		@media screen and (max-width: 1024px) {
 			flex-wrap: wrap;
 		}
@@ -38,18 +38,29 @@
 		text-transform: uppercase;
 		padding-bottom: 50px;
 		max-width: 516px;
-		font-size: 25px;
 		font-weight: bold;
+
+		color: #fefefe;
+		font-size: 36px;
+		line-height: 40.8px;
+		letter-spacing: 1.36px;
 	}
 	&__text {
-		font-size: 20px;
+		color: #fefefe;
+		font-size: 16px;
+		font-weight: bold;
+		letter-spacing: 0.16px;
+
 		max-width: 516px;
 		padding-bottom: 50px;
 	}
 	&__button {}
 	&__link {
-		color: #fff;
+		color: #fefefe;
+		font-size: 17px;
+		font-weight: bold;
 		text-decoration: underline;
+		letter-spacing: 0.16px;
 	}
 }
 

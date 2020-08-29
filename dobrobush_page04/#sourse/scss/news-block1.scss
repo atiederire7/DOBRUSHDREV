@@ -3,13 +3,16 @@
 	&__content {}
 	&__title {
 		padding-top: 200px;
-		font-size: 25px;
 		text-align: center;
-		padding-bottom: 60px;
-		border: 1px solid #000;
+		padding-bottom: 56px;
+		color: #282828;
+		font-size: 36px;
+		font-weight: bold;
+		line-height: 61.8px;
+		letter-spacing: 1.36px;
 	}
 	&__block1 {
-		border: 1px solid red;
+		// border: 1px solid red;
 		display: flex;
 		@media screen and (max-width: 1024px) {
 			flex-wrap: wrap-reverse;
@@ -28,21 +31,34 @@
 		}
 	}
 	&__title {
+		// font-family: 'Times New Roman', Times, serif;
 		text-transform: uppercase;
+		width: 463px;
 		padding-bottom: 50px;
+		// font-family: GothamPro;
 		max-width: 516px;
-		font-size: 25px;
+		font-size: 36px;
 		font-weight: bold;
+		color: #fefefe;
+		line-height: 40.8px;
+		letter-spacing: 1.36px;
 	}
 	&__text {
-		font-size: 20px;
-		max-width: 516px;
+		color: #fefefe;
+		width: 508px;
+		font-size: 16px;
 		padding-bottom: 50px;
+		font-weight: bold;
+		letter-spacing: 0.16px;
+		
 	}
 	&__button {}
 	&__link {
-		color: #fff;
+		color: #fefefe;
+		font-size: 17px;
+		font-weight: bold;
 		text-decoration: underline;
+		letter-spacing: 0.16px;
 	}
 	&__right-block {
 		width: 100%;
@@ -50,7 +66,7 @@
 		justify-content: center;
 		width: 1044px;
 		height: 586px;
-		border: 1px solid #000;
+		// border: 1px solid #000;
 	}
 	&__img {
 		object-fit: cover;

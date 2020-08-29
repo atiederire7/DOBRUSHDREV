@@ -1,4 +1,25 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothamProRegular.eot");
+  src: local("☺"), url("../fonts/GothamProRegular.woff") format("woff"), url("../fonts/GothamProRegular.ttf") format("truetype"), url("../fonts/GothamProRegular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothamProMedium.eot");
+  src: local("☺"), url("../fonts/GothamProMedium.woff") format("woff"), url("../fonts/GothamProMedium.ttf") format("truetype"), url("../fonts/GothamProMedium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothamProBold.eot");
+  src: local("☺"), url("../fonts/GothamProBold.woff") format("woff"), url("../fonts/GothamProBold.ttf") format("truetype"), url("../fonts/GothamProBold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
 /*Обнуление*/
 * {
   padding: 0;
@@ -79,13 +100,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 .news-block1__title {
   padding-top: 200px;
-  font-size: 25px;
   text-align: center;
-  padding-bottom: 60px;
-  border: 1px solid #000;
+  padding-bottom: 56px;
+  color: #282828;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 61.8px;
+  letter-spacing: 1.36px;
 }
 .news-block1__block1 {
-  border: 1px solid red;
   display: flex;
 }
 @media screen and (max-width: 1024px) {
@@ -108,19 +131,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 .block1__title {
   text-transform: uppercase;
+  width: 463px;
   padding-bottom: 50px;
   max-width: 516px;
-  font-size: 25px;
+  font-size: 36px;
   font-weight: bold;
+  color: #fefefe;
+  line-height: 40.8px;
+  letter-spacing: 1.36px;
 }
 .block1__text {
-  font-size: 20px;
-  max-width: 516px;
+  color: #fefefe;
+  width: 508px;
+  font-size: 16px;
   padding-bottom: 50px;
+  font-weight: bold;
+  letter-spacing: 0.16px;
 }
 .block1__link {
-  color: #fff;
+  color: #fefefe;
+  font-size: 17px;
+  font-weight: bold;
   text-decoration: underline;
+  letter-spacing: 0.16px;
 }
 .block1__right-block {
   width: 100%;
@@ -128,7 +161,6 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   width: 1044px;
   height: 586px;
-  border: 1px solid #000;
 }
 .block1__img {
   object-fit: cover;
@@ -169,7 +201,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .news-block2__block2 {
   display: flex;
-  border: 1px solid red;
 }
 @media screen and (max-width: 1024px) {
   .news-block2__block2 {
@@ -206,17 +237,26 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   padding-bottom: 50px;
   max-width: 516px;
-  font-size: 25px;
   font-weight: bold;
+  color: #fefefe;
+  font-size: 36px;
+  line-height: 40.8px;
+  letter-spacing: 1.36px;
 }
 .block2__text {
-  font-size: 20px;
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.16px;
   max-width: 516px;
   padding-bottom: 50px;
 }
 .block2__link {
-  color: #fff;
+  color: #fefefe;
+  font-size: 17px;
+  font-weight: bold;
   text-decoration: underline;
+  letter-spacing: 0.16px;
 }
 
 @media screen and (min-width: 1921px) {
@@ -244,7 +284,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 215px;
 }
 .news-block3__block3 {
-  border: 1px solid red;
   display: flex;
 }
 @media screen and (max-width: 1024px) {
@@ -269,17 +308,26 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   padding-bottom: 50px;
   max-width: 516px;
-  font-size: 25px;
   font-weight: bold;
+  color: #fefefe;
+  font-size: 36px;
+  line-height: 40.8px;
+  letter-spacing: 1.36px;
 }
 .block3__text {
-  font-size: 20px;
   max-width: 516px;
   padding-bottom: 50px;
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.16px;
 }
 .block3__link {
-  color: #fff;
+  color: #fefefe;
+  font-size: 17px;
+  font-weight: bold;
   text-decoration: underline;
+  letter-spacing: 0.16px;
 }
 .block3__right-block {
   width: 100%;
@@ -317,4 +365,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .wrapper {
   overflow: hidden;
+  font-family: GothamPro;
+}
+
+.container {
+  overflow: hidden;
+  max-width: 1440px;
+  margin: 0 auto;
 }
