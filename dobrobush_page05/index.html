@@ -16,17 +16,17 @@
               <input class="form__name" type="text" name="name" placeholder="* Имя"/>
               <input class="form__email" type="email" name="email" placeholder="* Email"/>
               <input class="form__tel-num" type="tel" name="tel" placeholder="+ 375 (__) ___ - __ - __"/>
-              <select class="form__country" name="country" placeholder="* Страна">
+              <select class="form__country" name="country">
                 <option class="country__item" value="s1">Беларусь</option>
                 <option class="country__item" value="s2">Украина</option>
                 <option class="country__item" value="s3">Россия</option>
                 <option class="country__item" value="s4">Казахстан</option>
                 <option class="country__item" value="s5">Молдова</option>
               </select>
-              <textarea class="form__message" name="message" cols="30" rows="10"></textarea>
-              <input class="form__file" type="file" name="file"/>
+              <textarea class="form__message" name="message" cols="30" rows="10" placeholder="Сообщение"></textarea>
+              <input class="form__file_file inputfile inputfile" id="file" type="file" name="file" data-multiple-caption="{count} files selected" multiple="multiple"/>
+              <label class="form__fake" for="file"> <img class="form__img" src="./img/clip.png" alt=""/><span>Добавить файл</span></label>
             </form>
-            <div class="contact__file-info">(Поддерживаемые форматы: Jpeg, png, pdf, doc, rtf, ppt, pptx)</div>
           </div>
         </div>
       </div>
@@ -78,6 +78,7 @@
           </div>
         </div>
       </div>
+      <script src="./js/script.js"></script>
     </div>
   </body>
 </html>
