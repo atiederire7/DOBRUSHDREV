@@ -1,3 +1,9 @@
 .map {
-	&__content {}
+	&__content {
+		width: 100%;
+		iframe {
+			width: 100%;
+			height: 633px;
+		}
+	}
 }

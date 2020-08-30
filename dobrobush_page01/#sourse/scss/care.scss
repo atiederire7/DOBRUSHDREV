@@ -2,14 +2,16 @@
 	color: #fff;
 	&__content {
 		display: flex;
-		// flex-wrap: wrap;
-		// height: 600px;
+		overflow: hidden;
+		width: 100%;
+		display: flex;
 		@media screen and (max-width: 1024px) {
 			flex-wrap: wrap;
 		}
 	}
 	&__left-block {
-		width: 1044px;
+		width: 53.7%;
+		// width: 1044px;
 		// background: url(../img/care.jpg) no-repeat;
 		// background-size: cover;
 		height: 803px;
@@ -20,10 +22,11 @@
 		height: 100%;
 	}
 	&__right-block {
+		width: 46.3%;
 		padding: 80px;
 		// padding-right: 210px;
 		background-color: #e9b979;
-		width: 876px;
+		// width: 876px;
 		height: 803px;
 		@media screen and (max-width: 1024px) {
 			width: 100%;

@@ -1,25 +1,63 @@
 .payment-and-delivery {
-	&__content {}
-	&__title {}
-	&__payment {}
-	&__payment-details {}
-	&__delivery-details {}
-}
-.container {
+	&__content {
+		margin-bottom: 78px;
+	}
+	&__title {
+		margin-bottom: 76px;
+		color: #282828;
+		font-size: 36px;
+		font-weight: 700;
+		text-align: center;
+	}
+	&__payment {
+		font-size: 24px;
+		color: #282828;
+	}
+	&__payment-details {
+		font-size: 24px;
+		color: #282828;
+	}
+	&__delivery-details {
+		font-size: 24px;
+		color: #282828;
+	}
 }
 .payment {
-	&__title {}
-	&__text1 {}
-	&__text2 {}
+	&__title {
+		font-weight: 500;
+		margin-bottom: 68px;
+	}
+	&__text1 {
+		padding-left: 40px;
+	}
+	&__text2 {
+		padding-left: 40px;
+	}
 }
 .payment-details {
-	&__prompt {}
-	&__info {}
-	&__text1 {}
-	&__text2 {}
+	&__prompt {
+		color: #adacac;
+		margin-top: 40px;
+	}
+	&__info {
+		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	&__text1 {
+		margin-bottom: 40px;
+	}
+	&__text2 {
+		margin-bottom: 68px;
+	}
 }
 .delivery-details {
-	&__title {}
-	&__text1 {}
+	&__title {
+		font-weight: 500;
+		margin-bottom: 40px;
+	}
+	&__text1 {
+		margin-bottom: 40px;
+	}
 	&__text2 {}
 }

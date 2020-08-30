@@ -533,6 +533,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .care__content {
   display: flex;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
 }
 @media screen and (max-width: 1024px) {
   .care__content {
@@ -540,7 +543,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .care__left-block {
-  width: 1044px;
+  width: 53.7%;
   height: 803px;
 }
 .care__img {
@@ -549,9 +552,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 .care__right-block {
+  width: 46.3%;
   padding: 80px;
   background-color: #e9b979;
-  width: 876px;
   height: 803px;
 }
 @media screen and (max-width: 1024px) {
