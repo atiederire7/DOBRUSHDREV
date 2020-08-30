@@ -30,18 +30,30 @@
 		}
 	}
 	&__title {
-		font-size: 35px;
 		text-transform: uppercase;
+		// width: 528px;
+		color: #fefefe;
+		font-size: 46px;
 		font-weight: bold;
+		line-height: 61.8px;
+		letter-spacing: 1.74px;
 	}
 	&__text {
 		border: 1px solid #000;
-		font-size: 20px;
 		line-height: 27px;
+
+		width: 526px;
+		color: #fefefe;
+		font-size: 16px;
+		font-weight: bold;
+		letter-spacing: 0.16px;
 	}
 	&__button {}
 	&__link {
-		color: #fff;
-		text-decoration: underline;	
+		color: #fefefe;
+		font-size: 17px;
+		font-weight: bold;
+		text-decoration: underline;
+		letter-spacing: 0.16px;
 	}
 }

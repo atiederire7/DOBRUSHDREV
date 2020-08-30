@@ -15,25 +15,29 @@
 		// justify-content: center;
 	}
 	&__title {
-		
+		// width: 179px;
+		color: #282828;
+		font-size: 40px;
+		font-weight: bold;
+		line-height: 61.8px;
+		/* Text style for "Галерея" */
+		letter-spacing: 1.51px;
+
 		margin: 0 auto;
-		// border: 1px solid #000;
 		margin-bottom: 30px;
-		font-size: 30px;
 	}
 	// &__subtitle {}
 	&__link {
-		
+		color: #b9b9b9;
+		font-size: 17px;
+		font-weight: bold;
+		letter-spacing: 0.16px;
 		display: block;
-		// border: 1px solid #000;
-		color: #000;
-		font-size: 14px;
 		text-decoration: underline;
 	}
 	&__right-block {
 		margin-top: 124px;
 		display: flex;
-		// flex-direction: column;
 		justify-content: center;
 		width: 930px;
 		border: 1px solid blue;

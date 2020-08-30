@@ -11,20 +11,32 @@
 		width: 46.3%;
 	}
 	&__title {
-		font-size: 35px;
-		text-transform: uppercase;
+		width: 169px;
+		color: #fefefe;
+		font-size: 46px;
 		font-weight: bold;
+		line-height: 61.8px;
+		letter-spacing: 1.74px;
+
+		text-transform: uppercase;
 		padding-bottom: 52px;
 	}
 	&__text {
-		font-size: 20px;
 		padding-bottom: 68px;
+
+		// width: 509px;
+		color: #fefefe;
+		font-size: 16px;
+		font-weight: bold;
+		letter-spacing: 0.16px;
 	}
 	&__button {}
 	&__link {
-		color: #fff;
+		color: #fefefe;
+		font-size: 17px;
+		font-weight: bold;
 		text-decoration: underline;
-		font-size: 20px;	
+		letter-spacing: 0.16px;	
 	}
 	&__right-block {
 		width: 100%;

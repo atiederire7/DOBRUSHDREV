@@ -95,9 +95,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-.header {
-  position: relative;
-}
 .header__content {
   height: 190px;
   padding-left: 10px;
@@ -105,35 +102,52 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header__inner {
   display: flex;
-  justify-content: center;
   justify-content: space-between;
 }
 .header__menu {
   width: 540px;
   margin-top: 86px;
-  height: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .header__logo {
   min-width: 120px;
+  border: 1px solid #000;
   margin-top: 45px;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
 }
 .header__icons {
   display: flex;
+  justify-content: space-between;
+  width: 255px;
+  height: 28px;
+  border: 1px solid #000;
+  position: absolute;
+  top: 40px;
+  right: 20px;
 }
+.header__search {
+  border: 1px solid red;
+  padding-left: 202px;
+}
+
 .menu__item {
-  color: #000;
-  font-size: 14px;
+  color: #282828;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1.74px;
   transition: 0.3s linear;
 }
 .menu__item:hover {
   color: #e9b979;
+}
+
+.left-menu {
+  position: relative;
 }
 
 .logo__img {
@@ -143,11 +157,22 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 .logo__title {
+  color: #282828;
+  font-size: 19px;
+  font-weight: 700;
   margin-top: 10px;
   text-transform: uppercase;
-  font-size: 15px;
   text-align: center;
-  font-weight: bold;
+}
+
+.basket__img {
+  width: 15px;
+  height: 15px;
+}
+
+.search__img {
+  width: 15px;
+  height: 15px;
 }
 
 .home {
@@ -210,19 +235,28 @@ h1, h2, h3, h4, h5, h6 {
   width: 46.3%;
 }
 .about__title {
-  font-size: 35px;
-  text-transform: uppercase;
+  width: 169px;
+  color: #fefefe;
+  font-size: 46px;
   font-weight: bold;
+  line-height: 61.8px;
+  letter-spacing: 1.74px;
+  text-transform: uppercase;
   padding-bottom: 52px;
 }
 .about__text {
-  font-size: 20px;
   padding-bottom: 68px;
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.16px;
 }
 .about__link {
-  color: #fff;
+  color: #fefefe;
+  font-size: 17px;
+  font-weight: bold;
   text-decoration: underline;
-  font-size: 20px;
+  letter-spacing: 0.16px;
 }
 .about__right-block {
   width: 100%;
@@ -526,18 +560,28 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .care__title {
-  font-size: 35px;
   text-transform: uppercase;
+  color: #fefefe;
+  font-size: 46px;
   font-weight: bold;
+  line-height: 61.8px;
+  letter-spacing: 1.74px;
 }
 .care__text {
   border: 1px solid #000;
-  font-size: 20px;
   line-height: 27px;
+  width: 526px;
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.16px;
 }
 .care__link {
-  color: #fff;
+  color: #fefefe;
+  font-size: 17px;
+  font-weight: bold;
   text-decoration: underline;
+  letter-spacing: 0.16px;
 }
 
 .advantages__content {
@@ -545,12 +589,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 .advantages__title {
   text-align: center;
+  color: #282828;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 1.36px;
 }
 .advantages__list-of-advantages {
   text-align: center;
   display: flex;
   justify-content: space-between;
 }
+.advantages__text {
+  color: #282828;
+  font-size: 24px;
+  letter-spacing: 0.24px;
+}
+
 .gallery__content {
   height: 684px;
   display: flex;
@@ -563,14 +617,21 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 .gallery__title {
+  color: #282828;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 61.8px;
+  /* Text style for "Галерея" */
+  letter-spacing: 1.51px;
   margin: 0 auto;
   margin-bottom: 30px;
-  font-size: 30px;
 }
 .gallery__link {
+  color: #b9b9b9;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 0.16px;
   display: block;
-  color: #000;
-  font-size: 14px;
   text-decoration: underline;
 }
 .gallery__right-block {
@@ -628,21 +689,28 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
 }
 .footer__right-block {
+  position: relative;
   margin-top: 80px;
-  padding-left: 130px;
   display: flex;
   flex-direction: column;
   width: 260px;
 }
 .footer__tel-num {
+  position: absolute;
+  right: 0;
   text-align: center;
+  border: 1px solid #000;
   display: flex;
   flex-direction: column;
 }
 .footer__list-of-soc-net {
+  position: absolute;
+  right: 0;
+  top: 60px;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 48px;
+  border: 1px solid #000;
   width: 80px;
   display: flex;
   justify-content: space-between;

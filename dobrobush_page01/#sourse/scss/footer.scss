@@ -47,8 +47,9 @@
 	}
 	&__subtitle {}
 	&__right-block {
+		position: relative;
 		margin-top: 80px;
-		padding-left: 130px;
+		// padding-left: 130px;
 		
 		display: flex;
 		flex-direction: column;
@@ -57,18 +58,24 @@
 		// border: 1px solid #000;
 	}
 	&__tel-num {
+		position: absolute;
+		right: 0;
 		// line-height: 1.5;
 		text-align: center;
-		// border: 1px solid #000;
+		border: 1px solid #000;
+		// width: 300px;
 		display: flex;
 		flex-direction: column;
 	}
 
 	&__list-of-soc-net {
+		position: absolute;
+		right: 0;
+		top: 60px;
 		margin-top: 10px;
 		margin-bottom: 10px;
 		margin-left: 48px;
-		// border: 1px solid #000;
+		border: 1px solid #000;
 		width: 80px;
 		display: flex;
 		justify-content: space-between;
