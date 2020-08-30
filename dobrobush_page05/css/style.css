@@ -95,6 +95,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+.contact__title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #282828;
+  letter-spacing: 1.36px;
+  margin-bottom: 143px;
+}
 .payment-and-delivery__content {
   margin-bottom: 78px;
 }
