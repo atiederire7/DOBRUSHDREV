@@ -95,6 +95,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+.services__content {
+  padding: 5px;
+}
 .services__title {
   text-align: center;
   margin-bottom: 202px;
@@ -105,9 +108,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .services__text {
   text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 1340px;
   color: #e9b979;
   font-size: 27px;
   font-weight: 700;
+  margin-bottom: 136px;
 }
 .wrapper {
   overflow: hidden;
