@@ -1,6 +1,23 @@
 .questions {
 	&__content {}
-	&__main-title {}
+	&__main-title {
+		color: #282828;
+		font-size: 36px;
+		font-weight: bold;
+		line-height: 61.8px;
+		letter-spacing: 1.36px;
+		text-align: center;
+		margin-bottom: 202px;
+	}
+	&__main-text {
+		text-align: center;
+		color: #e9b979;
+		font-size: 27px;
+		font-weight: bold;
+		display: block;
+		max-width: 1370px;
+		margin-bottom: 60px;
+	}
 	&__text {}
 	&__questions {}
 	&__item {}
