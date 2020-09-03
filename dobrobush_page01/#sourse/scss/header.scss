@@ -28,21 +28,20 @@
 		display: flex;	
 		justify-content: space-between;
 		width: 255px;
-		height: 28px;
-		border: 1px solid #000;
+		height: 29px;
+		// border: 1px solid #000;
 		position: absolute;
 		top: 40px;
 		right: 20px;
-		
-		
 	}
-	&__basket {}
+	&__basket {
+		// border: 1px solid #000;
+	}
 	&__search {
-		border: 1px solid red;
-		padding-left: 202px;
+		// border: 0px solid red;
+		// padding-left: 202px;
 	}
 }
-
 .menu {
 	&__item {
 		color: #282828;
@@ -75,16 +74,40 @@
 	}
 }
 .basket {
-	&__link {}
+	&__link {
+		position: relative;
+	}
 	&__img {
+		position: absolute;
+		top: 6px;
+		right: 0px;
 		width: 15px;
 		height: 15px;
 	}
 }
 .search {
-	&__link {}
+	&__form {
+		// cursor: default;
+		// display: none;
+		border: 1px solid #000;
+		width: 225px;
+		height: 29px;
+		padding: 5px;
+	}
+	&__link {
+		position: relative;
+	}
 	&__img {
+
+		position: absolute;
+		top: 2px;
+		right: 5px;
 		width: 15px;
 		height: 15px;
+		&:hover {
+			.search__form {
+					border: 1px solid red;
+			}
+		}
 	}
 }

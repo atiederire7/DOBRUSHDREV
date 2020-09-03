@@ -124,17 +124,11 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between;
   width: 255px;
-  height: 28px;
-  border: 1px solid #000;
+  height: 29px;
   position: absolute;
   top: 40px;
   right: 20px;
 }
-.header__search {
-  border: 1px solid red;
-  padding-left: 202px;
-}
-
 .menu__item {
   color: #282828;
   font-size: 15px;
@@ -165,14 +159,35 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+.basket__link {
+  position: relative;
+}
 .basket__img {
+  position: absolute;
+  top: 6px;
+  right: 0px;
   width: 15px;
   height: 15px;
 }
 
+.search__form {
+  border: 1px solid #000;
+  width: 225px;
+  height: 29px;
+  padding: 5px;
+}
+.search__link {
+  position: relative;
+}
 .search__img {
+  position: absolute;
+  top: 2px;
+  right: 5px;
   width: 15px;
   height: 15px;
+}
+.search__img:hover .search__form {
+  border: 1px solid red;
 }
 
 .home {
