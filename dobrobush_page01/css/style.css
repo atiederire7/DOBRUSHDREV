@@ -452,7 +452,6 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   text-decoration: none;
   color: #8a8a8a;
-  font-family: "Gotham Pro";
   font-size: 18px;
   font-weight: 400;
 }
@@ -591,6 +590,8 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 640px;
 }
 .advantages__title {
+  margin-bottom: 110px;
+  margin-top: 194px;
   text-align: center;
   color: #282828;
   font-size: 36px;
@@ -598,11 +599,27 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1.36px;
 }
 .advantages__list-of-advantages {
+  margin-bottom: 239px;
   text-align: center;
   display: flex;
   justify-content: space-between;
 }
+.advantages__item {
+  max-width: 339px;
+  display: flex;
+  flex-direction: column;
+}
+.advantages__circle {
+  margin-bottom: 50px;
+}
+.advantages__img {
+  margin: 0 auto;
+  width: 139px;
+  height: 139px;
+}
 .advantages__text {
+  letter-spacing: 0.24px;
+  font-weight: 500;
   color: #282828;
   font-size: 24px;
   letter-spacing: 0.24px;

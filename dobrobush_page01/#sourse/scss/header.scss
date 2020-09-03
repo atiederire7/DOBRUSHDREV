@@ -9,11 +9,8 @@
 		justify-content: space-between;
 	}
 	&__menu {
-		// height: 100px;
 		width: 540px;
 		margin-top: 86px;
-		// height:50px;
-		// border: 1px solid #000;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
@@ -28,8 +25,7 @@
 		flex-direction: column;
 	}
 	&__icons {
-		display: flex;
-		// flex-direction: row-reverse; 	
+		display: flex;	
 		justify-content: space-between;
 		width: 255px;
 		height: 28px;
@@ -42,8 +38,6 @@
 	}
 	&__basket {}
 	&__search {
-		// position: absolute;
-		// left: 202px;
 		border: 1px solid red;
 		padding-left: 202px;
 	}
@@ -55,8 +49,6 @@
 		font-size: 15px;
 		font-weight: 500;
 		letter-spacing: 1.74px;
-
-		// border: 1px solid #000;
 		transition: .3s linear;
 		&:hover{
 			color: #e9b979;

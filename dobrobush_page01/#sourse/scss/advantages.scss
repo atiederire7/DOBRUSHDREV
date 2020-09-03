@@ -1,28 +1,38 @@
 .advantages {
 	&__content {
 		max-height: 640px;
-		// display: flex;
-		// justify-content: space-between;
 	}
 	&__title {
+		margin-bottom: 110px;
+		margin-top: 194px; 
 		text-align: center;
-
-		// width: 505px;
 		color: #282828;
 		font-size: 36px;
 		font-weight: bold;
 		letter-spacing: 1.36px;
 	}
 	&__list-of-advantages {
+		margin-bottom: 239px;
 		text-align: center;
 		display: flex;
 		justify-content: space-between;
 	}
-	&__item {}
-	&__circle {}
-	&__img {}
+	&__item {
+		max-width: 339px;
+		display: flex;
+		flex-direction: column;
+	}
+	&__circle {
+		margin-bottom: 50px;
+	}
+	&__img {
+		margin: 0 auto;
+		width: 139px;
+		height: 139px;
+	}
 	&__text {
-		// width: 319px;
+		letter-spacing: 0.24px;
+		font-weight: 500;
 		color: #282828;
 		font-size: 24px;
 		letter-spacing: 0.24px;
