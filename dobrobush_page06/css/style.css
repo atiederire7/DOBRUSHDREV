@@ -95,9 +95,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-.services__content {
-  padding: 5px;
-}
 .services__title {
   text-align: center;
   margin-bottom: 202px;
@@ -116,6 +113,135 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   margin-bottom: 136px;
 }
+
+.slider__button {
+  width: 124px;
+  height: 33px;
+  color: #e9b979;
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.34px;
+  border: 3px solid #e9b979;
+  border-radius: 16px;
+  padding: 5px;
+  transition: all 0.3s linear;
+  margin-top: 24px;
+}
+.slider__button:hover {
+  background-color: #e9b979;
+  color: #fff;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+.slider {
+  position: relative;
+  padding: 0 50px;
+  margin-bottom: 83px;
+}
+
+.slider__item_inner {
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.slider__img {
+  max-width: 376px;
+  max-width: 442px;
+  margin-bottom: 42px;
+}
+
+.slider__title {
+  color: #282828;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.slider__subtitle {
+  color: #282828;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  margin: -30px 0 0 0;
+  top: 50%;
+  z-index: 10;
+  font-size: 0;
+  width: 6px;
+  height: 10px;
+}
+
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  border: 1px solid #999;
+  background-color: #fff;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: url("../img/left-arrow.png") 40% no-repeat;
+  transition: 0.3s linear;
+}
+.slider .slick-arrow.slick-prev:hover {
+  background-color: #ebebeb;
+}
+
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url("../img/right-arrow.png") 60% no-repeat;
+  border: 1px solid #999;
+  background-color: #fff;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+.slider .slick-arrow.slick-next:hover {
+  background-color: #ebebeb;
+}
+
+.slider .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider .slick-dots li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.slider .slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #666;
+  border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button {
+  background-color: #333;
+}
+
+.slider__item {
+  text-align: center;
+  text-decoration: none;
+  color: #8a8a8a;
+  font-size: 18px;
+  font-weight: 400;
+  min-height: 590px;
+}
+
 .wrapper {
   overflow: hidden;
   font-family: GothamPro;

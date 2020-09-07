@@ -1,5 +1,4 @@
 .bestsellers {
-	// &__content {}
 	&__title {
 		margin-top: 100px;
 		margin-bottom: 50px;
@@ -8,166 +7,157 @@
 	}
 	&__button {}
 	&__link {
-		color: #000;
+		color: #e9b979;
 		text-decoration: underline;
 		display: block;
 		text-align: center;
 		padding-bottom: 80px;
+		font-size: 17px;
+		font-weight: bold;
 	}
 }
 .slider {
-	&__img {
-		width: 280px;
-		height: 360px;
+	&__button {
+		
+		color: #e9b979;
+		font-size: 12px;
+		font-weight: 700;
+		letter-spacing: 1.34px;
+		border: 3px solid #e9b979;
+		border-radius: 16px;
+		padding: 5px;
+		transition: all .3s linear;
+		&:hover {
+			background-color: #e9b979;
+			color: #fff;
+		}
 	}
-	&__title {}
-	&__subtitle {}
-	&__button {}
 }
-
-/* Слайдер */
-.slick-slider{}
-/* Слайдер запущен */
-.slick-slider.slick-initialized{}
-/* Слайдер с точками */
-.slick-slider.slick-dotted{}
-/* Ограничивающая оболочка */
 .slick-list {
     overflow: hidden
 }
-/* Лента слайдов */
 .slick-track{
     display: flex;
     align-items: flex-start;
 }
-/* Слайд */
-// .slick-slide{}
-/* Слайд активный (показывается) */
-// .slick-slide.slick-active{}
-/* Слайд основной */
-// .slick-slide.slick-current{}
-/* Слайд по центру */
-// .slick-slide.slick-center{}
-/* Клонированный слайд */
-// .slick-slide.slick-cloned{}
-/* Стрелка */
-// .slick-arrow{}
-/* Стрелка влево */
-// .slick-arrow.slick-prev{}
-/* Стрелка вправо */
-// .slick-arrow.slick-next{}
-/* Стрелка не активная */
-// .slick-arrow.slick-disabled{}
-/* Точки (булиты) */
-// .slick-dots{}
-// .slick-dots li{}
-/* Активная точка */
-// .slick-dots li.slick-active{}
-/* Элемент точки */
-// .slick-dots li button{}
 .slider {
     position: relative;
-    padding: 0 50px;
-    /*height: 1000px;*/
+	padding: 0 50px;
+	margin-bottom: 83px;
 }
-/*.slider .slick-track {
-    display: block;
-}*/
-.slider {
-	.slick-arrow {
-		position: absolute;
-		margin: -30px 0 0 0;
-		top: 50%;
-		z-index: 10;
-		font-size: 0;
-		width: 6px;
-		height: 10px;
+.slider__item_inner {
+	display: flex;
+	justify-content: space-between;
+	max-width: 375px;
+	margin: 0 auto;
+}
+.inner {
+	&__block {
+		// border: 1px solid #000;
+		position: relative;
 	}
-    
-}
-.slider {
-	padding-bottom: 60px;
-	&__item {
-		text-align: center;
-		text-decoration: none;
-		color: #8a8a8a;
-		font-size: 18px;
-		font-weight: 400;
-	}
-	.slick-arrow {
-		.slick-prev {
-			left: 0;
-    		background: url('./img/left-arrow.png') 0 0 / 100% no-repeat;
-		}
-		.slick-next {
-			right: 0;
-			background: url('./img/right-arrow.png') 0 0 / 100% no-repeat;
-		}
-		.slick-dots {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			li{
-				list-style: none;
-				margin: 0 10px;
-			}
-			button{
-				display: flex;
-				font-size: 0;
-				width: 10px;
-				height: 10px;
-				background-color: #666;
-				border-radius: 50%;
-			}
-		}
-	}
-}
-
-// .slider .slick-dots 
-/* Активная точка */
-// .slider .slick-dots li {}
-/* Элемент точки */
-
-// .slider .slick-dots li.slick-active button {
-//     background-color: #333;
-// }
-
-.bestsellers {
-  min-height: 100vh;
-}
-.bestsellers__title {
-  margin-top: 100px;
-  margin-bottom: 50px;
-  font-size: 30px;
-  text-align: center;
-}
-.bestsellers__slider {
-  padding-bottom: 60px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.bestsellers__link {
-  color: #000;
-  text-decoration: underline;
-  display: block;
-  text-align: center;
-  padding-bottom: 80px;
-}
-
-.slider__block {
-  color: #000;
-  text-align: center;
-  max-width: 290px;
-  max-width: 360px;
-  border: 1px solid #000;
 }
 .slider__img {
-  width: 280px;
-  height: 360px;
+	max-width: 376px;
+	max-width: 442px;
 }
 .slider__title {
     color: #8a8a8a;
-    text-decoration: none;
+	text-decoration: none;
 }
-.slider__subtitle {}
+.slider__subtitle {
+    color: #8a8a8a;
+	text-decoration: none;
+	position: absolute;
+	left: 0;
+}
+
+.slider {
+    .slick-arrow {
+        position: absolute;
+        margin: -30px 0 0 0;
+        top: 50%;
+        z-index: 10;
+        font-size: 0;
+        width: 6px;
+        height: 10px;
+    }
+}
+.slider {
+    .slick-arrow.slick-prev {
+        left: 0;
+        border: 1px solid #999;  
+        background-color: #fff;      
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        background: url('../img/left-arrow.png') 40% no-repeat;
+        transition: .3s linear;
+        &:hover {
+            background-color: #ebebeb;
+        }
+    }
+}
+.slider {
+    .slick-arrow.slick-next {
+        right: 0;
+        background: url('../img/right-arrow.png') 60% no-repeat;
+        border: 1px solid #999;  
+        background-color: #fff;      
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        &:hover {
+            background-color: #ebebeb;
+        }
+    }
+}
+   
+.slider {
+    .slick-dots{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.slider {
+    .slick-dots li{
+        list-style: none;
+        margin: 0 10px;
+    }
+}
+.slider {
+    .slick-dots button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background-color: #666;
+        border-radius: 50%;
+    }
+}
+
+.slider {
+    .slick-dots {
+        li.slick-active {
+            button {
+                background-color: #333;
+            }
+        }
+    }
+}
+.slider__item {
+    text-align: center;
+    text-decoration: none;
+    color: #8a8a8a;
+    font-size: 18px;
+	font-weight: 400;
+	min-height: 500px;
+}
+
+// .slider__block {
+//   color: #000;
+//   text-align: center;
+//   max-width: 290px;
+//   max-width: 360px;
+// }
+
