@@ -11,13 +11,19 @@
 		padding: 0 10px 0 10px;
 	}
 	&__subtitle {
-		font-size: 16px;
+		// font-size: 16px;
+		font-size: 18px;
+		font-weight: 400;
+		letter-spacing: 0.66px;
 	}
 	&__title {
 		margin-top: 38px;
 		margin-bottom: 108px;
 		font-size: 80px;
 		font-weight: bold;
+
+		// font-size: 109px;
+		letter-spacing: 7.22px;
 	}
 	&__button {
 		display: flex;
@@ -44,7 +50,7 @@
 }
 //mediaquires
 
-@media screen and (max-width: 2561px) {
+@media screen and (width: 2560px) {
 	.home {
 		// height: 100vh;
 		&__content {
