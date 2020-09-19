@@ -29,7 +29,6 @@
 		letter-spacing: 0.16px;
 		
 	}
-	&__button {}
 	&__link {
 		color: #fefefe;
 		font-size: 17px;
@@ -51,11 +50,14 @@
 }
 .left-block {
 	&__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 		padding: 0 10px 0 10px;
-		margin-top: 118px;
+		// margin-top: 118px;
 		position: absolute;
 		// margin-right: 50px;
-		right: 63px;
+		right: 49px;
 		margin-bottom: 86px;
 		// margin-left: 240px;
 		width: 600px;
@@ -66,7 +68,7 @@
 }
 
 //МЕДИАЗАПРОСЫ
-@media screen and (width: 2560px) {
+@media screen and (min-width: 2559px) {
 	.about {
 		&__title {
 			font-size: 46px;
@@ -84,11 +86,11 @@
 	}
 	.left-block {
 		&__container {
-			margin-left: 560px;
-			margin-right: 20px;
+			// margin-left: 560px;
+			// margin-right: 20px;
 			max-width: 100%;
-			padding-right: 10px;
-			height: 703px;
+			height: 100%;
+			right: 10px;
 		}
 	}
 }
@@ -140,7 +142,7 @@
 			margin-right: 0;
 			max-width: 100%;
 			padding: 0 20px;
-			height: 703px;
+			height: 100%;
 		}
 	}
 }
