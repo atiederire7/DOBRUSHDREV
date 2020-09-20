@@ -77,6 +77,17 @@
 		}
 	}
 }
+//select-color
+.about-product__select-color {}
+.color__item {}
+.select-color__color {}
+.fake-color {}
+.fake-color1 {}
+.fake-color2 {}
+.fake-color3 {}
+.fake-color4 {}
+.fake-color5 {}
+
 .category {
 	&__title {
 		color: #686868;
@@ -297,8 +308,137 @@
 
 //MEDIA QUERIES
 @media screen and (max-width: 1440px) {}
-@media screen and (max-width: 1024px) {}
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 1024px) {
+	.catalog {
+		font-size: 18px;
+		&__content {}
+		&__left-block {
+			width: 34%;
+		}
+		&__path {
+			padding-top: 46px;
+		}
+		&__filter {
+			padding-top: 45px;
+			padding-bottom: 41px;
+		}
+		&__right-block {}
+		&__select-filter {
+			margin-top: 76px;
+			margin-bottom: 23px;
+			font-size: 18px;
+			option {
+				font-size: 16px;
+			}
+		}
+		&__catalog {}
+		&__item {
+			padding-bottom: 25px;
+		}
+		&__img {
+			height: 347px;
+			width: 299px;
+			margin-bottom: 9px;
+			&:hover {
+				height: 348px;
+				width: 300px;
+			}
+		}
+		&__text {
+			// font-size: 22px;
+		}
+		&__info {}
+		&__title {
+			font-size: 16px;
+
+		}
+		&__subtitle {
+			font-size: 16px;
+		}
+		&__link {
+			padding: 9px;
+			font-size: 12px;
+			border-radius: 20px;
+		}
+	}
+	.category {
+		&__title {
+			padding-bottom: 19px;
+		}
+		&__item {
+			padding-bottom: 12px;
+		}
+		&__text {
+			margin-left: 5px;
+			font-size: 22px;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.catalog {
+		font-size: 18px;
+		&__content {}
+		&__left-block {
+			width: 34%;
+		}
+		&__path {
+			padding-top: 26px;
+		}
+		&__filter {
+			padding-top: 25px;
+			padding-bottom: 21px;
+		}
+		&__right-block {}
+		&__select-filter {
+			margin-top: 76px;
+			margin-bottom: 23px;
+			font-size: 18px;
+			option {
+				font-size: 16px;
+			}
+		}
+		&__catalog {}
+		&__item {
+			padding-bottom: 15px;
+			padding-left: 15px;
+		}
+		&__img {
+			height: 497px;
+			width: 449px;
+			margin-bottom: 9px;
+			&:hover {
+				height: 498px;
+				width: 450px;
+			}
+		}
+		&__text {}
+		&__info {}
+		&__title {
+			font-size: 20px;
+		}
+		&__subtitle {
+			font-size: 20px;
+		}
+		&__link {
+			padding: 9px;
+			font-size: 14px;
+			border-radius: 20px;
+		}
+	}
+	.category {
+		&__title {
+			padding-bottom: 19px;
+		}
+		&__item {
+			padding-bottom: 12px;
+		}
+		&__text {
+			margin-left: 5px;
+			font-size: 20px;
+		}
+	}
+}
 @media screen and (max-width: 425px) {}
 @media screen and (max-width: 375px) {}
 @media screen and (max-width: 320px) {}

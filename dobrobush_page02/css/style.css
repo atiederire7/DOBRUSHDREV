@@ -361,9 +361,124 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #e2907a;
 }
 
+@media screen and (max-width: 1024px) {
+  .catalog {
+    font-size: 18px;
+  }
+  .catalog__left-block {
+    width: 34%;
+  }
+  .catalog__path {
+    padding-top: 46px;
+  }
+  .catalog__filter {
+    padding-top: 45px;
+    padding-bottom: 41px;
+  }
+  .catalog__select-filter {
+    margin-top: 76px;
+    margin-bottom: 23px;
+    font-size: 18px;
+  }
+  .catalog__select-filter option {
+    font-size: 16px;
+  }
+  .catalog__item {
+    padding-bottom: 25px;
+  }
+  .catalog__img {
+    height: 347px;
+    width: 299px;
+    margin-bottom: 9px;
+  }
+  .catalog__img:hover {
+    height: 348px;
+    width: 300px;
+  }
+  .catalog__title {
+    font-size: 16px;
+  }
+  .catalog__subtitle {
+    font-size: 16px;
+  }
+  .catalog__link {
+    padding: 9px;
+    font-size: 12px;
+    border-radius: 20px;
+  }
+
+  .category__title {
+    padding-bottom: 19px;
+  }
+  .category__item {
+    padding-bottom: 12px;
+  }
+  .category__text {
+    margin-left: 5px;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .catalog {
+    font-size: 18px;
+  }
+  .catalog__left-block {
+    width: 34%;
+  }
+  .catalog__path {
+    padding-top: 26px;
+  }
+  .catalog__filter {
+    padding-top: 25px;
+    padding-bottom: 21px;
+  }
+  .catalog__select-filter {
+    margin-top: 76px;
+    margin-bottom: 23px;
+    font-size: 18px;
+  }
+  .catalog__select-filter option {
+    font-size: 16px;
+  }
+  .catalog__item {
+    padding-bottom: 15px;
+    padding-left: 15px;
+  }
+  .catalog__img {
+    height: 497px;
+    width: 449px;
+    margin-bottom: 9px;
+  }
+  .catalog__img:hover {
+    height: 498px;
+    width: 450px;
+  }
+  .catalog__title {
+    font-size: 20px;
+  }
+  .catalog__subtitle {
+    font-size: 20px;
+  }
+  .catalog__link {
+    padding: 9px;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+
+  .category__title {
+    padding-bottom: 19px;
+  }
+  .category__item {
+    padding-bottom: 12px;
+  }
+  .category__text {
+    margin-left: 5px;
+    font-size: 20px;
+  }
+}
 .container {
   overflow: hidden;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 0 10px;
 }
