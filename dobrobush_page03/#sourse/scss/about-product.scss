@@ -13,9 +13,7 @@
 		flex-wrap: wrap;
 		justify-content: space-between;
 		width: 631px;
-		// border: 1px solid #000;
 	}
-
 	&__img1 {
 		width: 416px;
 		height: 386px;
@@ -53,11 +51,8 @@
 		}
 	}
 	&__select-color {
-
 		display: flex;
-		
 		margin-top: 30px;
-		// padding-bottom: 34px;
 		border: 1px solid #000;
 		div {
 			padding-top: 8px;
@@ -69,11 +64,9 @@
 	&__button {
 		position: relative;
 		bottom: 0;
-		// margin-top: 90px;
 		margin-top: 100px;
 	}
 	&__link {
-		
 		border-radius: 40px;
 		border: 2px solid #e9b979;
 		color: #e9b979;
@@ -96,7 +89,6 @@
 .select-color {
 	&__color {
 		display: none;
-		
 	}
 }
 .color {

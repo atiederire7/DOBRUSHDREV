@@ -1,13 +1,11 @@
 .catalog {
-	// margin-bottom: 247px;
-	// background-color: #666;
 	font-size: 18px;
 	&__content {
 		display: flex;
 	}
 	&__left-block {
-		width: 38.8%;
-		// border: 1px solid #000;
+		width: 34.4%;
+		border: 1px solid #000;
 	}
 	&__path {
 		color: #686868;
@@ -25,8 +23,8 @@
 	&__material {}
 	&__color {}
 	&__right-block {
-		width: 61.2%;
-		// border: 1px solid #000;
+		width: 65.6%;
+		border: 1px solid #000;
 	}
 	&__select-filter {
 		margin-top: 106px;
@@ -63,9 +61,7 @@
 		font-size: 13px;
 		color: #8a8a8a;
 	}
-	&__button {
-		
-	}
+	&__button {}
 	&__link {
 		color: #e9b979;
 		font-weight: 700;
@@ -227,3 +223,82 @@
 	border: 5px solid #e2907a;
 	background-color: #e2907a;
 }
+
+
+//SELECT COLOR
+.about-product {
+	&__select-color {
+		display: flex;
+		margin-top: 30px;
+		border: 1px solid #000;
+		div {
+			padding-top: 8px;
+			font-weight: 700;
+			color: #282828;
+		}
+	}
+}
+.select-color {
+	&__color {
+		display: none;
+	}
+}
+.color {
+	&__item {
+		padding-left: 22px;
+	}
+}
+
+.fake-color {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	border-radius: 50%;	
+}
+.fake-color::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+	opacity: 0;
+	transition: .3s;
+	border-radius: 50%;
+	// border: 5px solid #000;
+}
+.select-color__color:checked + .fake-color::before {
+	opacity: 1;
+}
+.fake-color1 {
+	border: 5px solid #214c16;
+	background-color: #214c16;
+}
+.fake-color2 {
+	border: 5px solid #d99500;
+	background-color: #d99500;
+}
+.fake-color3 {
+	border: 5px solid #6c977f;
+	background-color: #6c977f;
+}
+.fake-color4 {
+	border: 5px solid #847567;
+	background-color: #847567;
+}
+.fake-color5 {
+	border: 5px solid #e2907a;
+	background-color: #e2907a;
+}
+
+//MEDIA QUERIES
+@media screen and (max-width: 1440px) {}
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 425px) {}
+@media screen and (max-width: 375px) {}
+@media screen and (max-width: 320px) {}
