@@ -94,32 +94,6 @@
 		}
 	}
 }
-// @media screen and (max-width: 2560px) {
-// 	.about {
-// 		&__title {
-// 			font-size: 46px;
-// 			padding-bottom: 52px;
-// 		}
-// 		&__text {
-// 			padding-bottom: 50px;
-// 			font-size: 20px;
-// 			letter-spacing: 0.16px;
-// 			// line-height: 24px;
-// 		}
-// 		&__link {
-// 			font-size: 20px;
-// 		}
-// 	}
-// 	.left-block {
-// 		&__container {
-// 			margin-left: 0;
-// 			margin-right: 0;
-// 			max-width: 100%;
-// 			padding: 0 20px;
-// 			height: 703px;
-// 		}
-// 	}
-// }
 @media screen and (max-width: 1441px) {
 	.about {
 		&__title {
@@ -143,6 +117,7 @@
 			max-width: 100%;
 			padding: 0 20px;
 			height: 100%;
+			
 		}
 	}
 }
@@ -177,102 +152,89 @@
 			flex-wrap: wrap-reverse;
 		}
 		&__title {
-			padding-bottom: 20px;
+			margin: 0 auto;
+			padding-bottom: 30px;
 			padding-top: 20px;
-			font-size: 36px;
+			font-size: 40px;
 		}
 		&__text {
-			font-size: 20px;
-			padding-bottom: 25px;
+			font-size: 26px;
+			padding-bottom: 30px;
 		}
 		&__link {
-			font-size: 20px;
-			// margin-bottom: 20px;
+			font-size: 26px;
 		}
 		&__left-block {
 			width: 100%;
-			height: 600px;
 			display: flex;
 			flex-direction: column;
 			text-align: center;
 			justify-content: center;
+			height: 100vh;
 		}
 		&__right-block {
 			width: 100%;
-			// height: 500px;
-		}
-	}
-	.left-block {
-		&__container {
-			margin: 100px;
-			max-width: 100%;
-			padding-right: 10px;
-			// height: 00px;
-		}
-	}
-}
-// @media screen and (width: 1024px) {}
-@media screen and (max-width: 768px) {
-	.about {
-		&__title {
-			padding-bottom: 20px;
-			padding-top: 20px;
-			font-size: 32px;
-		}
-		&__text {
-			font-size: 18px;
-			padding-bottom: 25px;
-		}
-		&__link {
-			font-size: 18px;
-			// margin-bottom: 20px;
-		}
-		&__right-block {
-			max-height: 460px;
-		}
-		&__left-block {
-			max-height: 460px;
-		}
-	}
-	.left-block {
-		&__container {
-			margin: 50px;
-			max-width: 100%;
-			padding-right: 10px;
-			// height: 500px;
-		}
-	}
-}
-@media screen and (max-width: 426px) {
-	.about {
-		&__title {
-			padding-bottom: 20px;
-			padding-top: 20px;
-			font-size: 24px;
-		}
-		&__text {
-			font-size: 14px;
-			padding-bottom: 25px;
-		}
-		&__link {
-			font-size: 14px;
-			// margin-bottom: 20px;
-		}
-		&__left-block {
-			height: 550px;
-			// margin: 0;
-		}
-		&__right-block {
-			height: 300px;
+			height: 100vh;
 		}
 	}
 	.left-block {
 		&__container {
 			margin: 0;
-			padding: 10px;
-			margin: 0px;
-			max-width: 100%;
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			right: 0;
 		}
+	}
+}
+@media screen and (max-width: 769px) {
+	.about {
+		&__title {
+			margin: 0 auto;
+			padding-bottom: 30px;
+			padding-top: 16px;
+			font-size: 36px;
+		}
+		&__text {
+			font-size: 22px;
+			padding-bottom: 30px;
+		}
+		&__link {
+			font-size: 22px;
+		}
+		&__right-block {
+			width: 100%;
+			height: 768px;
+		}
+		&__left-block {}
+	}
+	.left-block {
+		&__container {}
+	}
+}
+@media screen and (max-width: 426px) {
+	.about {
+		&__title {
+			margin: 0 auto;
+			padding-bottom: 20px;
+			padding-top: 16px;
+			font-size: 30px;
+		}
+		&__text {
+			font-size: 16px;
+			padding-bottom: 20px;
+		}
+		&__link {
+			font-size: 16px;
+		}
+		&__left-block {}
+		&__right-block {
+			width: 100%;
+			height: 526px;
+		}
+	}
+	.left-block {
+		&__container {}
 	}
 }
 @media screen and (max-width: 376px) {
@@ -282,19 +244,16 @@
 			padding-bottom: 10px;
 		}
 		&__text {
-			font-size: 14px;
+			font-size: 15px;
 			padding-bottom: 10px;
 		}
 		&__link {
-			font-size: 14px;
-			// margin-bottom: 20px;
+			font-size: 16px;
 		}
-		&__left-block {
-			height: 550px;
-			// margin: 0;
-		}
+		&__left-block {}
 		&__right-block {
-			height: 300px;
+			width: 100%;
+			height: 476px;
 		}
 	}
 	.left-block {
@@ -314,19 +273,16 @@
 			padding-top: 15px;
 		}
 		&__text {
-			font-size: 13px;
+			font-size: 14px;
 			padding-bottom: 6px;
 		}
 		&__link {
-			font-size: 12px;
-			// margin-bottom: 20px;
+			font-size: 14px;
 		}
-		&__left-block {
-			height: 550px;
-			// margin: 0;
-		}
+		&__left-block {}
 		&__right-block {
-			height: 300px;
+			width: 100%;
+			height: 420px;
 		}
 	}
 	.left-block {
@@ -338,12 +294,3 @@
 		}
 	}
 }
-
-//dsads
-
-
-// @media screen and (width: 2561px) {}
-// @media screen and (max-width: 769px) {}
-// @media screen and (max-width: 426px) {}
-// @media screen and (max-width: 376px) {}
-// @media screen and (max-width: 321px) {}

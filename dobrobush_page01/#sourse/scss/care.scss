@@ -10,7 +10,6 @@
 		width: 100%;
 		display: flex;
 		justify-content: center;
-		// border: 1px solid #000;
 		width: 53.7%;
 		height: 803px;
 		background: url(../img/care.jpg) no-repeat center;
@@ -19,20 +18,12 @@
 	&__img {}
 	&__right-block {
 		position: relative;
-		// width: 46.3%;
-		// padding: 80px;
-		// // padding-right: 210px;
-		// background-color: #e9b979;
-		// // width: 876px;
-		// height: 803px;
 		background-color: #e9b979;
 		height: 803px;
 		width: 46.3%;
 	}
 	&__title {
 		margin: 0 auto;
-		// max-width: 529px;
-		// width: 528px;
 		color: #fefefe;
 		font-size: 40px;
 		font-weight: bold;
@@ -46,7 +37,6 @@
 		font-size: 16px;
 		font-weight: bold;
 		letter-spacing: 0.16px;
-		// border: 1px solid #000;
 	}
 	&__button {}
 	&__link {
@@ -63,32 +53,17 @@
 		flex-direction: column;
 		justify-content: center;
 		padding: 0 10px 0 10px;
-		// margin-top: 118px;
 		position: absolute;
-		// margin-right: 50px;
 		left: 49px;
 		margin-bottom: 86px;
-		// margin-left: 240px;
 		width: 600px;
 		max-height: 803px;
 		height: 803px;
 		border: 1px solid #000;
-
-		// padding: 0 10px 0 10px;
-		// margin-top: 118px;
-		// position: absolute;
-		// // margin-right: 50px;
-		// left: 49px;
-		// margin-bottom: 86px;
-		// // margin-left: 240px;
-		// width: 600px;
-		// max-height: 803px;
-		// height: 803px;
-		// border: 1px solid #000;
 	}
 }
 
-//МЕДИАЗАПРОСЫ
+// МЕДИАЗАПРОСЫ
 @media screen and (min-width: 2559px) {
 	.care {
 		&__title {
@@ -107,18 +82,13 @@
 	}
 	.right-block {
 		&__container {
-			// margin-right: 560px;
-			// margin-left: 20px;
-			// max-width: 100%;
-			// padding-left: 10px;
-			// height: 703px;
-			// left: 0;
 			max-width: 100%;
 			height: 100%;
 			left: 10px;
 		}
 	}
 }
+
 @media screen and (max-width: 1441px) {
 	.care {
 		&__title {
@@ -129,7 +99,6 @@
 			padding-bottom: 50px;
 			font-size: 20px;
 			letter-spacing: 0.16px;
-			// line-height: 24px;
 		}
 		&__link {
 			font-size: 20px;
@@ -138,15 +107,14 @@
 	.right-block {
 		&__container {
 			margin-left: 0;
-			// margin-top: 0;
 			margin-right: 0;
 			max-width: 100%;
 			padding: 0 20px;
-			
 			height: 100%;
 		}
 	}
 }
+
 @media screen and (width: 1280px) {
 	.care {
 		&__content {
@@ -157,10 +125,9 @@
 		}
 		&__right-block {
 			margin-left: 0;
-			margin-right: 0;
+			margin-right: 0px;
 			max-width: 100%;
-			// padding-right: 10px;
-			padding-left: 10px;
+			padding-right: 10px;
 		}
 		.right-block {
 			&__container {
@@ -168,117 +135,101 @@
 				margin-left: 0;
 				margin-right: 0px;
 				max-width: 100%;
-				// padding-right: 10px;
-				padding-left: 10px;
+				padding-right: 10px;
 			}
 		}
 	}
 }
+
 @media screen and (max-width: 1025px) {
 	.care {
 		&__content {
 			flex-wrap: wrap;
 		}
 		&__title {
-			padding-bottom: 20px;
+			margin: 0 auto;
+			padding-bottom: 30px;
 			padding-top: 20px;
-			font-size: 36px;
+			font-size: 40px;
 		}
 		&__text {
-			font-size: 20px;
-			padding-bottom: 25px;
+			font-size: 26px;
+			padding-bottom: 30px;
 		}
 		&__link {
-			font-size: 20px;
-			// margin-bottom: 20px;
+			font-size: 26px;
 		}
 		&__right-block {
 			width: 100%;
-			height: 500px;
 			display: flex;
 			flex-direction: column;
 			text-align: center;
 			justify-content: center;
+			height: 100vh;
 		}
 		&__left-block {
 			width: 100%;
-		}
-	}
-	.right-block {
-		&__container {
-			margin: 90px;
-			max-width: 100%;
-			// padding-right: 10px;
-			// padding-left: 10px;
-			// height: 600px;
-			height: 100%;
-		}
-	}
-}
-@media screen and (max-width: 768px) {
-	.care {
-		&__title {
-			padding-bottom: 20px;
-			padding-top: 20px;
-			font-size: 32px;
-		}
-		&__text {
-			font-size: 18px;
-			padding-bottom: 25px;
-		}
-		&__link {
-			font-size: 18px;
-			// margin-bottom: 20px;
-		}
-		&__left-block {
-			max-height: 460px;
-		}
-		&__right-block {
-			max-height: 460px;
-		}
-	}
-	.right-block {
-		&__container {
-			margin: 50px;
-			max-width: 100%;
-			// padding-right: 10px;
-			padding-left: 10px;
-			// height: 500px;
-		}
-	}
-}
-@media screen and (max-width: 426px) {
-	.care {
-		&__title {
-			padding-bottom: 20px;
-			padding-top: 20px;
-			font-size: 24px;
-		}
-		&__text {
-			font-size: 14px;
-			padding-bottom: 25px;
-		}
-		&__link {
-			font-size: 14px;
-			// margin-bottom: 20px;
-		}
-		&__right-block {
-			height: 550px;
-			// margin: 0;
-		}
-		&__left-block {
-			height: 300px;
+			height: 100vh;
 		}
 	}
 	.right-block {
 		&__container {
 			margin: 0;
-			padding: 10px;
-			margin: 0px;
-			max-width: 100%;
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			left: 0;
 		}
 	}
 }
+
+@media screen and (max-width: 769px) {
+	.care {
+		&__title {
+			margin: 0 auto;
+			padding-bottom: 30px;
+			padding-top: 16px;
+			font-size: 36px;
+		}
+		&__text {
+			font-size: 22px;
+			padding-bottom: 30px;
+		}
+		&__link {
+			font-size: 22px;
+		}
+		&__left-block {
+			width: 100%;
+			height: 768px;
+		}
+	}
+}
+
+@media screen and (max-width: 426px) {
+	.care {
+		&__title {
+			margin: 0 auto;
+			padding-bottom: 20px;
+			padding-top: 16px;
+			font-size: 30px;
+		}
+		&__text {
+			font-size: 16px;
+			padding-bottom: 20px;
+		}
+		&__link {
+			font-size: 16px;
+		}
+		&__left-block {
+			width: 100%;
+			height: 526px;
+		}
+	}
+	.right-block {
+		&__container {}
+	}
+}
+
 @media screen and (max-width: 376px) {
 	.care {
 		&__title {
@@ -286,19 +237,15 @@
 			padding-bottom: 10px;
 		}
 		&__text {
-			font-size: 14px;
+			font-size: 15px;
 			padding-bottom: 10px;
 		}
 		&__link {
-			font-size: 14px;
-			// margin-bottom: 20px;
-		}
-		&__right-block {
-			height: 550px;
-			// margin: 0;
+			font-size: 16px;
 		}
 		&__left-block {
-			height: 300px;
+			width: 100%;
+			height: 476px;
 		}
 	}
 	.right-block {
@@ -310,6 +257,7 @@
 		}
 	}
 }
+
 @media screen and (max-width: 321px) {
 	.care {
 		&__title {
@@ -318,22 +266,18 @@
 			padding-top: 15px;
 		}
 		&__text {
-			font-size: 13px;
+			font-size: 14px;
 			padding-bottom: 6px;
 		}
 		&__link {
-			font-size: 12px;
-			// margin-bottom: 20px;
-		}
-		&__right-block {
-			height: 550px;
-			// margin: 0;
+			font-size: 14px;
 		}
 		&__left-block {
-			height: 300px;
+			width: 100%;
+			height: 420px;
 		}
 	}
-	.right-block {
+	.lright-block {
 		&__container {
 			margin: 0;
 			padding: 10px;
@@ -342,13 +286,3 @@
 		}
 	}
 }
-
-
-
-
-
-@media screen and (max-width: 2561px) {}
-@media screen and (max-width: 769px) {}
-@media screen and (max-width: 426px) {}
-@media screen and (max-width: 376px) {}
-@media screen and (max-width: 321px) {}
