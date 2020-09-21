@@ -1108,7 +1108,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 420px;
   }
 
-  .lright-block__container {
+  .right-block__container {
     margin: 0;
     padding: 10px;
     margin: 0px;
@@ -1275,6 +1275,269 @@ h1, h2, h3, h4, h5, h6 {
   .advantages__text {
     max-width: 309px;
     font-size: 20px;
+  }
+}
+.footer {
+  margin-top: auto;
+  padding: 0 10px;
+  width: 100%;
+  background-color: #e9b979;
+  font-weight: bold;
+}
+.footer__content {
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer__left-block {
+  margin-top: 80px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  max-width: 260px;
+}
+.footer__address {
+  margin-bottom: 20px;
+}
+.footer__center-block {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 260px;
+}
+.footer__title {
+  margin-bottom: 10px;
+}
+.footer__right-block {
+  position: relative;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+}
+.footer__tel-num {
+  position: absolute;
+  right: 0;
+  text-align: center;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+}
+.footer__list-of-soc-net {
+  position: absolute;
+  right: 0;
+  top: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 48px;
+  border: 1px solid #000;
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.tel-num__title {
+  margin-left: 45px;
+  margin-bottom: 13px;
+}
+.tel-num__tel-num1 {
+  margin-bottom: 5px;
+}
+.footer-logo__img {
+  margin-bottom: 10px;
+  width: 59px;
+  height: 37px;
+}
+
+.whatsapp__img {
+  display: block;
+  height: 15px;
+  width: 15px;
+}
+
+.telegram__img {
+  display: block;
+  width: 19px;
+  height: 15px;
+}
+
+.viber__img {
+  display: block;
+  width: 14px;
+  height: 15px;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    width: 100%;
+  }
+  .footer__content {
+    height: 230px;
+  }
+  .footer__left-block {
+    margin-top: 80px;
+    max-width: 230px;
+    font-size: 14px;
+  }
+  .footer__address {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .footer__center-block {
+    margin-top: 80px;
+    width: 230px;
+  }
+  .footer__title {
+    margin-bottom: 10px;
+  }
+  .footer__right-block {
+    margin-top: 80px;
+    width: 240px;
+    font-size: 14px;
+  }
+  .footer__list-of-soc-net {
+    right: 0;
+    top: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 48px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-logo__img {
+    margin-bottom: 10px;
+    width: 64px;
+    height: 42px;
+  }
+
+  .whatsapp__img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .telegram__img {
+    width: 24px;
+    height: 20px;
+  }
+
+  .viber__img {
+    width: 19px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 100%;
+  }
+  .footer__content {
+    height: 230px;
+  }
+  .footer__left-block {
+    margin-top: 80px;
+    max-width: 200px;
+    font-size: 13px;
+  }
+  .footer__address {
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+  .footer__center-block {
+    margin-top: 80px;
+    width: 200px;
+  }
+  .footer__title {
+    margin-bottom: 10px;
+  }
+  .footer__right-block {
+    margin-top: 80px;
+    width: 200px;
+    font-size: 13px;
+  }
+  .footer__list-of-soc-net {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .footer {
+    position: static;
+    width: 100%;
+  }
+  .footer__content {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+  }
+  .footer__left-block {
+    margin-top: 0px;
+    min-width: 400px;
+    font-size: 14px;
+    border: 1px solid #000;
+  }
+  .footer__address {
+    margin-bottom: 0px;
+    font-size: 14px;
+  }
+  .footer__center-block {
+    margin-top: 0px;
+    width: 400px;
+    border: 1px solid #000;
+  }
+  .footer__title {
+    margin-bottom: 10px;
+  }
+  .footer__right-block {
+    margin-top: 0px;
+    width: 400px;
+    font-size: 14px;
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer__list-of-soc-net {
+    right: 50;
+    top: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__tel-num {
+    position: absolute;
+    right: 0;
+    text-align: center;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-logo__img {
+    margin-bottom: 10px;
+    width: 64px;
+    height: 42px;
+  }
+
+  .whatsapp__img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .telegram__img {
+    width: 24px;
+    height: 20px;
+  }
+
+  .viber__img {
+    width: 19px;
+    height: 20px;
   }
 }
 .wrapper {
