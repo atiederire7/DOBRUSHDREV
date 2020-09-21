@@ -242,6 +242,66 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 590px;
 }
 
+@media screen and (max-width: 1440px) {
+  .services__title {
+    margin-bottom: 82px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .services__title {
+    margin-bottom: 82px;
+    font-size: 32px;
+  }
+  .services__text {
+    max-width: 1000px;
+    font-size: 24px;
+    margin-bottom: 106px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .services__title {
+    margin-bottom: 52px;
+    font-size: 28px;
+  }
+  .services__text {
+    max-width: 750px;
+    font-size: 20px;
+    margin-bottom: 86px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .services__title {
+    margin-bottom: 32px;
+    font-size: 28px;
+  }
+  .services__text {
+    max-width: 420px;
+    font-size: 18px;
+    margin-bottom: 66px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .services__title {
+    margin-bottom: 22px;
+    font-size: 26px;
+  }
+  .services__text {
+    max-width: 360px;
+    font-size: 16px;
+    margin-bottom: 56px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .services__title {
+    margin-bottom: 22px;
+    font-size: 26px;
+  }
+  .services__text {
+    max-width: 315px;
+    font-size: 14px;
+    margin-bottom: 56px;
+  }
+}
 .wrapper {
   overflow: hidden;
   font-family: GothamPro;
@@ -249,6 +309,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   overflow: hidden;
+  padding: 0 10px;
   max-width: 1440px;
   margin: 0 auto;
   border: 1px solid red;
