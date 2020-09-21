@@ -7,3 +7,47 @@
 		}
 	}
 }
+@media screen and (min-width: 2559px) {
+	.map {
+		&__content {
+			width: 100%;
+			iframe {
+				width: 100%;
+				height: 733px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 1024px) {
+	.map {
+		&__content {
+			width: 100%;
+			iframe {
+				width: 100%;
+				height: 533px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 768px) {
+	.map {
+		&__content {
+			width: 100%;
+			iframe {
+				width: 100%;
+				height: 433px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 425px) {
+	.map {
+		&__content {
+			width: 100%;
+			iframe {
+				width: 100%;
+				height: 100vh;
+			}
+		}
+	}
+}

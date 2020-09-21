@@ -84,6 +84,7 @@
     font-weight: 500;
     padding: 10px 0;
     padding-left: 10px;
+    
     min-height: 40px;
     max-height: 40px;
     min-width: 875px;
@@ -138,8 +139,6 @@
     font-weight: 500;
   }
 }
-
-
     // .form__name,
     // .form__email,
     // .form__tel-num,
@@ -148,3 +147,360 @@
     // .form__file {
     //     // border: 1px solid red;
     // }
+
+
+//mediaquires
+
+@media screen and (min-width: 2559px) {}
+@media screen and (max-width: 1024px) {
+  .form {
+    &__message {
+      font-size: 18px;
+      padding: 10px 0;
+      padding-left: 10px;
+      min-height: 40px;
+      max-height: 40px;
+      min-width: 740px;
+      max-width: 740px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact {
+    &__content {
+      margin-bottom: 115px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    &__title {
+      font-size: 30px;
+      margin-bottom: 80px;
+    }
+    &__form {
+      max-width: 768px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__file-info {
+      font-size: 10px;
+    }
+  }
+  .form {
+    &__name {
+      margin-bottom: 35px;
+      font-size: 17px;
+      padding: 10px 0;
+      padding-left: 10px;
+      width: 468px;
+    }
+    &__email {
+      margin-bottom: 35px;
+      font-size: 17px;
+      padding: 10px 0;
+      padding-left: 10px;
+      width: 468px;
+    }
+    &__tel-num {
+      margin-bottom: 35px;
+      font-size: 17px;
+      padding: 10px 0;
+      padding-left: 10px;
+      width: 468px;
+    }
+    &__country {
+      margin-bottom: 35px;
+      font-size: 17px;
+      padding: 10px 0;
+      padding-left: 10px;
+      width: 468px;
+    }
+    &__message {
+      margin: 0 20px;
+      font-size: 18px;
+      padding: 10px 0;
+      padding-left: 10px;
+      margin-bottom: 35px;
+      min-height: 40px;
+      max-height: 40px;
+      min-width: 540px;
+      max-width: 540px;
+    }
+    &__file {}
+    &__file_button {
+      font-size: 17px;
+      width: 173px;
+      height: 30px;
+    }
+    &__file_file {}
+    &__img {
+      width: 17px;
+      height: 20px;
+      margin-right: 7px;
+    }
+    &__fake {
+      font-size: 17px;
+      padding: 7px;
+    }
+  }
+  .country {
+    &__item {
+      font-size: 17px;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contact {
+    &__content {
+      height: 100vh;
+      margin-bottom: 85px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    &__title {
+      font-size: 26px;
+      margin-bottom: 60px;
+    }
+    &__form {
+      max-width: 410px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__file-info {
+      font-size: 10px;
+    }
+  }
+  .form {
+    &__name {
+      margin-bottom: 30px;
+      font-size: 16px;
+      padding: 10px 0;
+      padding-left: 10px;
+      width: 380px;
+    }
+    &__email {
+      margin-bottom: 30px;
+      font-size: 16px;
+      padding: 10px 0;
+      padding-left: 10px;
+      width: 380px;
+    }
+    &__tel-num {
+      margin-bottom: 30px;
+      font-size: 16px;
+      padding: 10px 0;
+      padding-left: 10px;
+      width: 380px;
+    }
+    &__country {
+      margin-bottom: 30px;
+      font-size: 16px;
+      padding: 10px 0;
+      padding-left: 10px;
+      width: 380px;
+    }
+    &__message {
+      font-size: 16px;
+      padding: 10px 0;
+      padding-left: 10px;
+      margin-bottom: 30px;
+      min-height: 40px;
+      max-height: 40px;
+      min-width: 380px;
+      max-width: 380px;
+    }
+    &__file {}
+    &__file_button {
+      font-size: 17px;
+      width: 173px;
+      height: 30px;
+    }
+    &__file_file {}
+    &__img {
+      width: 17px;
+      height: 20px;
+      margin-right: 7px;
+    }
+    &__fake {
+      font-size: 17px;
+      padding: 7px;
+    }
+  }
+  .country {
+    &__item {
+      font-size: 17px;
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  .contact {
+    &__content {
+      margin-bottom: 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    &__title {
+      font-size: 22px;
+      margin-bottom: 50px;
+    }
+    &__form {
+      max-width: 340px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__file-info {
+      font-size: 10px;
+    }
+  }
+  .form {
+    &__name {
+      margin-bottom: 30px;
+      font-size: 16px;
+      padding: 10px 0;
+      padding-left: 10px;
+      width: 340px;
+    }
+    &__email {
+      margin-bottom: 30px;
+      font-size: 16px;
+      padding: 10px 0;
+      padding-left: 10px;
+      width: 340px;
+    }
+    &__tel-num {
+      margin-bottom: 30px;
+      font-size: 16px;
+      padding: 10px 0;
+      padding-left: 10px;
+      width: 340px;
+    }
+    &__country {
+      margin-bottom: 30px;
+      font-size: 16px;
+      padding: 10px 0;
+      padding-left: 10px;
+      width: 340px;
+    }
+    &__message {
+      font-size: 16px;
+      padding: 10px 0;
+      padding-left: 10px;
+      margin-bottom: 30px;
+      min-height: 40px;
+      max-height: 100px;
+      min-width: 340px;
+      max-width: 340px;
+    }
+    &__file {}
+    &__file_button {
+      font-size: 17px;
+      width: 153px;
+      height: 30px;
+    }
+    &__file_file {}
+    &__img {
+      width: 17px;
+      height: 20px;
+      margin-right: 7px;
+    }
+    &__fake {
+      font-size: 17px;
+      padding: 7px;
+    }
+  }
+  .country {
+    &__item {
+      font-size: 17px;
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .contact {
+    &__content {
+      margin-bottom: 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    &__title {
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+    &__form {
+      max-width: 300px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__file-info {
+      font-size: 10px;
+    }
+  }
+  .form {
+    &__name {
+      margin-bottom: 20px;
+      font-size: 16px;
+      padding: 10px 0;
+      padding-left: 10px;
+      width: 300px;
+    }
+    &__email {
+      margin-bottom: 20px;
+      font-size: 16px;
+      padding: 10px 0;
+      padding-left: 10px;
+      width: 300px;
+    }
+    &__tel-num {
+      margin-bottom: 20px;
+      font-size: 16px;
+      padding: 10px 0;
+      padding-left: 10px;
+      width: 300px;
+    }
+    &__country {
+      margin-bottom: 20px;
+      font-size: 16px;
+      padding: 10px 0;
+      padding-left: 10px;
+      width: 300px;
+    }
+    &__message {
+      font-size: 16px;
+      padding: 10px 0;
+      padding-left: 10px;
+      margin-bottom: 30px;
+      min-height: 40px;
+      max-height: 100px;
+      min-width: 300px;
+      max-width: 300px;
+    }
+    &__file {}
+    &__file_button {
+      font-size: 15px;
+      width: 143px;
+      height: 30px;
+    }
+    &__file_file {}
+    &__img {
+      width: 17px;
+      height: 20px;
+      margin-right: 7px;
+    }
+    &__fake {
+      font-size: 17px;
+      padding: 7px;
+    }
+  }
+  .country {
+    &__item {
+      font-size: 17px;
+    }
+  }
+}

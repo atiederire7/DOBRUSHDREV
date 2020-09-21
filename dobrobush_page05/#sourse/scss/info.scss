@@ -37,3 +37,117 @@
 		padding-right: 66px;
 	}
 }
+@media screen and (min-width: 2559px) {
+	.info {
+		&__content {
+			// border: 1px solid #000;
+			margin-top: 140px;
+			margin-bottom: 95px;
+		}
+		&__block-left {
+			padding-left: 66px;
+			padding-right: 66px;
+			height: 203px;
+		}
+		&__title {
+			padding-top: 22px;
+			margin-bottom: 40px;
+			font-size: 28px;
+		}
+		&__text1 {
+			margin-bottom: 22px;
+			font-size: 18px;
+		}
+		&__text2 {}
+		&__block-center {
+			height: 203px;
+			padding-left: 66px;
+			padding-right: 66px;
+		}
+		&__block-right {
+			height: 203px;
+			padding-left: 66px;
+			padding-right: 66px;
+		}
+	}
+}
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 768px) {
+	.info {
+		&__content {
+			margin-top: 140px;
+			margin-bottom: 95px;
+			justify-content: center;
+		}
+		&__block-left {
+			padding-left: 56px;
+			padding-right: 56px;
+			height: 203px;
+		}
+		&__title {
+			padding-top: 22px;
+			margin-bottom: 40px;
+			font-size: 22px;
+		}
+		&__text1 {
+			margin-bottom: 22px;
+			font-size: 13px;
+		}
+		&__text2 {}
+		&__block-center {
+			height: 203px;
+			padding-left: 56px;
+			padding-right: 56px;
+		}
+		&__block-right {
+			height: 203px;
+			padding-left: 56px;
+			padding-right: 56px;
+		}
+	}
+}
+@media screen and (max-width: 425px) {
+	.info {
+		&__content {
+			height: 100vh;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			justify-content: center;
+			flex-direction: column;
+		}
+		&__block-left {
+			margin: 0 auto;
+			padding-left: 46px;
+			padding-right: 46px;
+			height: 203px;
+			border-right: 0px solid #fff;
+			border-bottom: 1px solid #e9b979;
+		}
+		&__title {
+			padding-top: 22px;
+			margin-bottom: 40px;
+			font-size: 22px;
+		}
+		&__text1 {
+			margin-bottom: 22px;
+			font-size: 13px;
+		}
+		&__text2 {}
+		&__block-center {
+			margin: 0 auto;
+			height: 203px;
+			padding-left: 46px;
+			padding-right: 46px;
+			border-right: 0px solid #fff;
+			border-bottom: 1px solid #e9b979;
+		}
+		&__block-right {
+			margin: 0 auto;
+			height: 203px;
+			padding-left: 46px;
+			padding-right: 46px;
+		}
+	}
+}
+@media screen and (max-width: 375px) {}
+@media screen and (max-width: 320px) {}

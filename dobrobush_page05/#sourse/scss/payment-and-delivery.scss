@@ -61,3 +61,222 @@
 	}
 	&__text2 {}
 }
+
+@media screen and (min-width: 2559px) {}
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 768px) {
+	.payment-and-delivery {
+		&__content {
+			margin-bottom: 78px;
+		}
+		&__title {
+			margin-bottom: 76px;
+			font-size: 30px;
+		}
+		&__payment {
+			font-size: 22px;
+		}
+		&__payment-details {
+			font-size: 22px;
+		}
+		&__delivery-details {
+			font-size: 22px;
+		}
+	}
+	.payment {
+		&__title {
+			margin-bottom: 48px;
+		}
+		&__text1 {
+			padding-left: 35px;
+		}
+		&__text2 {
+			padding-left: 35px;
+		}
+	}
+	.payment-details {
+		&__prompt {
+			margin-top: 30px;
+		}
+		&__info {
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+		&__text1 {
+			margin-bottom: 30px;
+		}
+		&__text2 {
+			margin-bottom: 48px;
+		}
+	}
+	.delivery-details {
+		&__title {
+			margin-bottom: 30px;
+		}
+		&__text1 {
+			margin-bottom: 30px;
+		}
+	}
+}
+@media screen and (max-width: 425px) {
+	.payment-and-delivery {
+		&__content {
+			margin-bottom: 58px;
+		}
+		&__title {
+			margin-bottom: 56px;
+			font-size: 26px;
+		}
+		&__payment {
+			font-size: 20px;
+		}
+		&__payment-details {
+			font-size: 20px;
+		}
+		&__delivery-details {
+			font-size: 20px;
+		}
+	}
+	.payment {
+		&__title {
+			margin-bottom: 58px;
+		}
+		&__text1 {
+			padding-left: 25px;
+		}
+		&__text2 {
+			padding-left: 25px;
+		}
+	}
+	.payment-details {
+		&__prompt {
+			margin-top: 20px;
+		}
+		&__info {
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+		&__text1 {
+			margin-bottom: 20px;
+		}
+		&__text2 {
+			margin-bottom: 38px;
+		}
+	}
+	.delivery-details {
+		&__title {
+			margin-bottom: 20px;
+		}
+		&__text1 {
+			margin-bottom: 20px;
+		}
+	}
+}
+@media screen and (max-width: 375px) {
+	.payment-and-delivery {
+		&__content {
+			margin-bottom: 48px;
+		}
+		&__title {
+			margin-bottom: 46px;
+			font-size: 22px;
+		}
+		&__payment {
+			font-size: 17px;
+		}
+		&__payment-details {
+			font-size: 17px;
+		}
+		&__delivery-details {
+			font-size: 17px;
+		}
+	}
+	.payment {
+		&__title {
+			margin-bottom: 48px;
+		}
+		&__text1 {
+			padding-left: 15px;
+		}
+		&__text2 {
+			padding-left: 15px;
+		}
+	}
+	.payment-details {
+		&__prompt {
+			margin-top: 10px;
+		}
+		&__info {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		&__text1 {
+			margin-bottom: 10px;
+		}
+		&__text2 {
+			margin-bottom: 28px;
+		}
+	}
+	.delivery-details {
+		&__title {
+			margin-bottom: 20px;
+		}
+		&__text1 {
+			margin-bottom: 20px;
+		}
+	}
+}
+@media screen and (max-width: 320px) {
+	.payment-and-delivery {
+		&__content {
+			margin-bottom: 38px;
+		}
+		&__title {
+			margin-bottom: 36px;
+			font-size: 20px;
+		}
+		&__payment {
+			font-size: 17px;
+		}
+		&__payment-details {
+			font-size: 17px;
+		}
+		&__delivery-details {
+			font-size: 17px;
+		}
+	}
+	.payment {
+		&__title {
+			margin-bottom: 48px;
+		}
+		&__text1 {
+			padding-left: 15px;
+		}
+		&__text2 {
+			padding-left: 15px;
+		}
+	}
+	.payment-details {
+		&__prompt {
+			margin-top: 10px;
+		}
+		&__info {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		&__text1 {
+			margin-bottom: 10px;
+		}
+		&__text2 {
+			margin-bottom: 28px;
+		}
+	}
+	.delivery-details {
+		&__title {
+			margin-bottom: 20px;
+		}
+		&__text1 {
+			margin-bottom: 20px;
+		}
+	}
+}
