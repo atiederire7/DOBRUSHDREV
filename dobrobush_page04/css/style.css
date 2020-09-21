@@ -874,3 +874,53 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1.36px;
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 2559px) {
+  .title {
+    padding-top: 200px;
+    padding-bottom: 56px;
+    font-size: 46px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .title {
+    padding-top: 200px;
+    padding-bottom: 54px;
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .title {
+    padding-top: 200px;
+    padding-bottom: 40px;
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title {
+    padding-top: 200px;
+    padding-bottom: 30px;
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .title {
+    padding-top: 200px;
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .title {
+    padding-top: 200px;
+    padding-bottom: 15px;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .title {
+    padding-top: 200px;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+}

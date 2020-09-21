@@ -336,6 +336,7 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   overflow: hidden;
   max-width: 1440px;
+  padding: 0 10px;
   margin: 0 auto;
   border: 1px solid red;
 }
