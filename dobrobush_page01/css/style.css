@@ -1192,18 +1192,21 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 700px;
+    height: 800px;
   }
   .advantages__title {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 40px;
-    font-size: 34px;
+    font-size: 28px;
   }
   .advantages__list-of-advantages {
     margin-bottom: 40px;
     flex-direction: column;
   }
   .advantages__item {
-    max-width: 4150px;
+    margin-bottom: 20px;
+    max-width: 415px;
     margin: 0 auto;
   }
   .advantages__circle {
@@ -1227,7 +1230,7 @@ h1, h2, h3, h4, h5, h6 {
   .advantages__title {
     margin-top: 40px;
     margin-bottom: 40px;
-    font-size: 32px;
+    font-size: 24px;
   }
   .advantages__list-of-advantages {
     margin-bottom: 20px;
@@ -1235,6 +1238,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
   }
   .advantages__item {
+    padding-bottom: 10px;
     max-width: 365px;
     margin: 0 auto;
   }
@@ -1254,7 +1258,7 @@ h1, h2, h3, h4, h5, h6 {
   .advantages__title {
     margin-top: 30px;
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 22px;
   }
   .advantages__list-of-advantages {
     margin-bottom: 20px;
@@ -1262,6 +1266,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
   }
   .advantages__item {
+    padding-bottom: 20px;
     max-width: 310px;
     margin: 0 auto;
   }
@@ -1321,7 +1326,6 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   right: 0;
   text-align: center;
-  border: 1px solid #000;
   display: flex;
   flex-direction: column;
 }
@@ -1332,7 +1336,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 48px;
-  border: 1px solid #000;
   width: 80px;
   display: flex;
   justify-content: space-between;
@@ -1466,55 +1469,58 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
   }
   .footer__content {
-    height: 100vh;
+    min-height: 425px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     justify-content: center;
   }
   .footer__left-block {
+    justify-content: center;
     margin-top: 0px;
-    min-width: 400px;
+    max-width: 400px;
     font-size: 14px;
-    border: 1px solid #000;
+    height: 110px;
   }
   .footer__address {
     margin-bottom: 0px;
     font-size: 14px;
   }
   .footer__center-block {
+    height: 110px;
+    justify-content: center;
     margin-top: 0px;
     width: 400px;
-    border: 1px solid #000;
   }
   .footer__title {
     margin-bottom: 10px;
   }
   .footer__right-block {
+    height: 110px;
     margin-top: 0px;
-    width: 400px;
+    max-width: 400px;
     font-size: 14px;
-    border: 1px solid #000;
     display: flex;
-    flex-wrap: wrap-reverse;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
     justify-content: center;
+    border: 1px solid #000;
   }
   .footer__list-of-soc-net {
-    right: 50;
+    right: 50px;
     top: 0;
     margin-top: 0px;
-    margin-bottom: 0px;
     margin-left: 0px;
-    width: 200px;
+    width: 100px;
     display: flex;
+    border: 1px solid #000;
     justify-content: space-between;
   }
   .footer__tel-num {
+    margin-top: 60px;
     position: absolute;
-    right: 0;
+    right: 35px;
     text-align: center;
-    border: 1px solid #000;
     display: flex;
     flex-direction: column;
   }
@@ -1539,6 +1545,11 @@ h1, h2, h3, h4, h5, h6 {
     width: 19px;
     height: 20px;
   }
+
+  .tel-num__title {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
 }
 .wrapper {
   overflow: hidden;
@@ -1549,5 +1560,4 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   max-width: 1440px;
   margin: 0 auto;
-  border: 1px solid red;
 }
