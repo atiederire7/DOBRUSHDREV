@@ -140,7 +140,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   display: flex;
   justify-content: center;
-  border: 1px solid #000;
   width: 53.7%;
   height: 586px;
   background: url(../img/block1.jpg) no-repeat center;
@@ -157,7 +156,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 600px;
   max-height: 803px;
   height: 586px;
-  border: 1px solid #000;
 }
 
 @media screen and (min-width: 2559px) {
@@ -364,7 +362,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   display: flex;
   justify-content: center;
-  border: 1px solid #000;
   width: 53.7%;
   height: 586px;
   background: url(../img/block2.jpg) no-repeat center;
@@ -411,7 +408,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 600px;
   max-height: 803px;
   height: 586px;
-  border: 1px solid #000;
 }
 
 @media screen and (min-width: 2559px) {
@@ -643,7 +639,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   display: flex;
   justify-content: center;
-  border: 1px solid #000;
   width: 53.7%;
   height: 586px;
   background: url(../img/block3.jpg) no-repeat center;
@@ -660,7 +655,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 600px;
   max-height: 803px;
   height: 586px;
-  border: 1px solid #000;
 }
 
 @media screen and (min-width: 2559px) {
@@ -858,6 +852,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
+  padding: 0 10px;
   overflow: hidden;
   max-width: 1440px;
   margin: 0 auto;

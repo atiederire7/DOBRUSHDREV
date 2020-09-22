@@ -1,12 +1,36 @@
+@font-face {
+	font-family: 'GothamPro';
+	src: url('../fonts/GothamProRegular.eot');
+	src: local('☺'), url('../fonts/GothamProRegular.woff') format('woff'), url('../fonts/GothamProRegular.ttf') format('truetype'), url('../fonts/GothamProRegular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GothamPro';
+	src: url('../fonts/GothamProMedium.eot');
+	src: local('☺'), url('../fonts/GothamProMedium.woff') format('woff'), url('../fonts/GothamProMedium.ttf') format('truetype'), url('../fonts/GothamProMedium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GothamPro';
+	src: url('../fonts/GothamProBold.eot');
+	src: local('☺'), url('../fonts/GothamProBold.woff') format('woff'), url('../fonts/GothamProBold.ttf') format('truetype'), url('../fonts/GothamProBold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
 @import "nullstyle";
 // @import "header";
 @import "about-product";
 // @import "watched";
 // @import "footer";
-
+.wrapper {
+    overflow: hidden;
+    font-family: GothamPro;
+}
 .container {
+	padding: 0 10px;
     overflow: hidden;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 10px;
 }

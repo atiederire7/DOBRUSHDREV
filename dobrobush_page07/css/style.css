@@ -332,8 +332,8 @@ body {
 }
 
 .container {
-  overflow: hidden;
   padding: 0 10px;
+  overflow: hidden;
   max-width: 1440px;
   margin: 0 auto;
 }
