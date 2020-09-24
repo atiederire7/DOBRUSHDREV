@@ -3,14 +3,14 @@ $(document).ready(function(){
     	arrows:true,
     	// dots:true,
     	adaptiveHeight:true,
-    	slidesToShow:4,
+    	slidesToShow:3,
     	slidesToScroll: 1,
     	speed: 400,
     	easing: 'ease',
     	infinite: true,
     	// initialSlide:0;
-    	autoplay: true,
-    	autoplaySpeed: 800,
+    	autoplay: false,
+    	autoplaySpeed: 700,
     	pauseOnFocus:true,
     	pauseOnHover: true,
     	pauseOnDotsHover:true,
@@ -25,5 +25,20 @@ $(document).ready(function(){
     	// slidesPerRow: 1,
     	// vertical: false,
 		// verticalSwiping: false,
+		responsive: [
+			{
+			  	breakpoint: 1025,
+			  	settings: {
+					slidesToShow: 2
+			  	}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1,
+					arrows:false
+				}
+		  	},
+		]
     });
 });
