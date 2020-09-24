@@ -20,6 +20,7 @@
         justify-content: space-between;
         height: 192px;
         align-items: center;
+        // border-bottom: 1px solid #000;
         border-bottom: 1px solid #000;
     }
     &__logo {
@@ -90,6 +91,7 @@
     .header {
         &__body {
             height: 172px;
+            // border-bottom: 1px solid #000;
         }
         &__list {
             padding-top: 35px;
@@ -125,6 +127,13 @@
             font-weight: 700;
             text-transform: uppercase;
             text-align: center;
+        }
+    }
+}
+@media (max-width: 1440px){
+    .header {
+        &__body {
+            // border-bottom: 1px solid #000;
         }
     }
 }

@@ -398,7 +398,20 @@
         min-height: 380px;
     }
 }
-@media screen and (max-width: 426px) {}
+@media screen and (max-width: 426px) {
+    .bestsellers {
+        height: 100%;
+        &__title {
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        &__link {
+            padding-bottom: 30px;
+            font-size: 14px;
+        }
+    }
+}
 @media screen and (max-width: 376px) {}
 @media screen and (max-width: 321px) {
     .bestsellers {

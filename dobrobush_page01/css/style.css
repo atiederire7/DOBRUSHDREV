@@ -431,6 +431,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (width: 2560px) {
+  .home {
+    margin-top: 172px;
+  }
   .home__content {
     padding: 0 10px 0 10px;
   }
@@ -1155,6 +1158,20 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 380px;
   }
 }
+@media screen and (max-width: 426px) {
+  .bestsellers {
+    height: 100%;
+  }
+  .bestsellers__title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .bestsellers__link {
+    padding-bottom: 30px;
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 321px) {
   .bestsellers {
     height: 100%;
@@ -1251,7 +1268,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 46.3%;
 }
 .care__title {
-  margin: 0 auto;
   color: #fefefe;
   font-size: 40px;
   font-weight: bold;
