@@ -47,7 +47,7 @@
 .slider__item_inner {
 	display: flex;
 	justify-content: space-between;
-	max-width: 375px;
+	max-width: 302px;
 	margin: 0 auto;
 }
 .inner {
@@ -57,8 +57,8 @@
 	}
 }
 .slider__img {
-	max-width: 376px;
-	max-width: 442px;
+	max-width: 246px;
+	max-width: 312px;
 }
 .slider__title {
     color: #8a8a8a;
@@ -70,7 +70,6 @@
 	position: absolute;
 	left: 0;
 }
-
 .slider {
     .slick-arrow {
         position: absolute;
@@ -112,20 +111,20 @@
     }
 }
 .slider {
-    .slick-dots{
+    .slick-dots {
         display: flex;
         align-items: center;
         justify-content: center;
     }
 }
 .slider {
-    .slick-dots li{
+    .slick-dots li {
         list-style: none;
         margin: 0 10px;
     }
 }
 .slider {
-    .slick-dots button{
+    .slick-dots button {
         font-size: 0;
         width: 10px;
         height: 10px;
@@ -183,11 +182,14 @@
         }
     }
     .slider__item_inner {
-        max-width: 386px;
+        display: flex;
+        justify-content: space-between;
+        max-width: 302px;
+        margin: 0 auto;
     }
     .slider__img {
-        max-width: 386px;
-        max-width: 452px;
+        max-width: 246px;
+        max-width: 312px;
     }
     .slider {
         .slick-arrow.slick-prev {
@@ -226,6 +228,16 @@
             border-radius: 16px;
             padding: 5px;
         }
+    }
+    .slider__item_inner {
+        display: flex;
+        justify-content: space-between;
+        max-width: 302px;
+        margin: 0 auto;
+    }
+    .slider__img {
+        max-width: 246px;
+        max-width: 312px;
     }
     .slider {
         padding: 0 30px;
@@ -296,11 +308,14 @@
         margin-bottom: 10px;
     }
     .slider__item_inner {
-        max-width: 265px;
+        display: flex;
+        justify-content: space-between;
+        max-width: 302px;
+        margin: 0 auto;
     }
     .slider__img {
-        max-width: 206px;
-        max-width: 272px;
+        max-width: 246px;
+        max-width: 312px;
     }
     .slider {
         .slick-arrow {
@@ -439,11 +454,11 @@
         margin-bottom: 10px;
     }
     .slider__item_inner {
-        max-width: 265px;
+        max-width: 235px;
     }
     .slider__img {
-        max-width: 206px;
-        max-width: 272px;
+        max-width: 176px;
+        max-width: 242px;
     }
     .slider {
         .slick-arrow {
