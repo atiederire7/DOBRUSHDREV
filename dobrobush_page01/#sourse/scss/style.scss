@@ -21,17 +21,18 @@
 }
 @import "nullstyle";
 @import "header";
-@import "home"; //test
-@import "about"; //test
-@import "bestsellers"; //min 1024px
-@import "care"; //test
+@import "home";
+@import "about";
+// @import "bestsellers";
+@import "care";
 @import "advantages"; 
 // @import "gallery";
 @import "footer";
 
 .wrapper {
     overflow: hidden;
-    font-family: GothamPro;
+	font-family: GothamPro;
+	border: 1px solid #000;
 }
 .container {
 	padding: 0 10px;
