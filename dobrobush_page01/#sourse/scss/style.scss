@@ -23,20 +23,20 @@
 @import "header";
 @import "home";
 @import "about";
-// @import "bestsellers";
+@import "bestsellers";
 @import "care";
 @import "advantages"; 
-// @import "gallery";
+@import "gallery";
 @import "footer";
 
 .wrapper {
     overflow: hidden;
 	font-family: GothamPro;
-	border: 1px solid #000;
 }
 .container {
 	padding: 0 10px;
     overflow: hidden;
-    max-width: 1440px;
+	max-width: 1440px;
+	// border: 1px solid #000;
     margin: 0 auto;
 }
