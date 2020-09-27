@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.slider').slick({
+    $('.slider1').slick({
     	arrows:false,
     	dots:true,
     	adaptiveHeight:true,
@@ -9,12 +9,12 @@ $(document).ready(function(){
     	easing: 'ease',
     	infinite: false,
     	// initialSlide:0;
-    	autoplay: true,
+    	autoplay: false,
     	autoplaySpeed: 1000,
     	pauseOnFocus:true,
     	pauseOnHover: true,
 		pauseOnDotsHover:true,
-    	draggable: true,
+    	draggable: false,
     	swipe: true,
     	// touchTreshold: 10,
     	touchMove: true,

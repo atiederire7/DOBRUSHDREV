@@ -1,9 +1,10 @@
 .bestsellers {
 	&__title {
-		margin-top: 100px;
-		margin-bottom: 50px;
+		margin-top: 160px;
+		margin-bottom: 110px;
 		font-size: 30px;
-		text-align: center;
+        text-align: center;
+        font-weight: 700;
 	}
 	&__button {}
 	&__link {
@@ -11,7 +12,7 @@
 		text-decoration: underline;
 		display: block;
 		text-align: center;
-		padding-bottom: 80px;
+		padding-bottom: 220px;
 		font-size: 17px;
 		font-weight: bold;
     }
