@@ -25,6 +25,13 @@ $(document).ready(function(){
     	// slidesPerRow: 1,
     	// vertical: false,
 		// verticalSwiping: false,
-
+		responsive: [
+			{
+			  	breakpoint: 440,
+			  	settings: {
+					dots:false
+			  	}
+			},
+		]
     });
 });
