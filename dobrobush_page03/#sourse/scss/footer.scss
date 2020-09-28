@@ -1,0 +1,393 @@
+.footer {
+	margin-top: auto;
+	padding: 0 10px;
+	width: 100%;
+	background-color: #e9b979;
+	font-weight: bold;
+	&__content {
+		// padding-top: 78px;
+		height: 250px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	&__left-block {
+		margin-top: 80px;
+		line-height: 1.5;
+		display: flex;
+		flex-direction: column;
+		max-width: 260px;
+	}
+	&__address {
+		margin-bottom: 20px;
+	}
+	&__operating-mode {}
+	&__center-block {
+		margin-top: 80px;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		width: 260px;
+	}
+	&__logo {}
+	&__title {
+		margin-bottom: 10px;
+	}
+	&__subtitle {}
+	&__right-block {
+		position: relative;
+		margin-top: 80px;
+		display: flex;
+		flex-direction: column;
+		width: 260px;
+	}
+	&__tel-num {
+		position: absolute;
+		right: 0;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__list-of-soc-net {
+		position: absolute;
+		right: 0;
+		top: 60px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 48px;
+		width: 80px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__whatsapp {}
+	&__telegram {}
+	&__viber {}
+}
+.tel-num {
+	&__title {
+		margin-left: 45px;
+		margin-bottom: 13px;
+	}
+	&__tel-num1 {
+		margin-bottom: 5px;
+	}
+	&__tel-num2 {}
+}
+.footer-logo {
+	&__img {
+		// border: 1px solid #000;
+		margin-bottom: 10px;
+		// display: block;
+		width: 59px;
+		height: 37px;
+	}
+}
+.whatsapp {
+	&__img {
+		display: block;
+		height: 15px;
+		width: 15px;
+	}
+}
+.telegram {
+	&__img {
+		display: block;
+		width: 19px;
+		height: 15px;
+	}
+}
+.viber {
+	&__img {
+		display: block;
+		width: 14px;
+		height: 15px;
+	}
+}
+
+// МЕДИАЗАПРОСЫ
+@media screen and (min-width: 2559px) {}
+@media screen and (max-width: 1440px) {}
+@media screen and (max-width: 1023px) {
+	.footer {
+		width: 100%;
+		&__content {
+			height: 230px;
+		}
+		&__left-block {
+			margin-top: 80px;
+			max-width: 230px;
+			font-size: 14px;
+		}
+		&__address {
+			margin-bottom: 20px;
+			font-size: 14px;
+		}
+		&__center-block {
+			margin-top: 80px;
+			width: 230px;
+		}
+		&__title {
+			margin-bottom: 10px;
+		}
+		&__right-block {
+			margin-top: 80px;
+			width: 240px;
+			font-size: 14px;
+		}
+		&__list-of-soc-net {
+			right: 0;
+			top: 60px;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			margin-left: 48px;
+			width: 100px;
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+	.footer-logo {
+		&__img {
+			margin-bottom: 10px;
+			width: 64px;
+			height: 42px;
+		}
+	}
+	.whatsapp {
+		&__img {
+			height: 20px;
+			width: 20px;
+		}
+	}
+	.telegram {
+		&__img {
+			width: 24px;
+			height: 20px;
+		}
+	}
+	.viber {
+		&__img {
+			width: 19px;
+			height: 20px;
+		}
+	}
+}
+@media screen and (max-width: 768px) {
+	.footer {
+		width: 100%;
+		&__content {
+			height: 230px;
+		}
+		&__left-block {
+			margin-top: 80px;
+			max-width: 200px;
+			font-size: 13px;
+		}
+		&__address {
+			margin-bottom: 20px;
+			font-size: 13px;
+		}
+		&__center-block {
+			margin-top: 80px;
+			width: 200px;
+		}
+		&__title {
+			margin-bottom: 10px;
+		}
+		&__right-block {
+			margin-top: 80px;
+			width: 200px;
+			font-size: 13px;
+		}
+		&__list-of-soc-net {
+			width: 80px;
+		}
+	}
+}
+@media screen and (max-width: 657px) {
+	.footer {
+		position: static;
+		width: 100%;
+		&__content {
+			min-height: 425px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			justify-content: center;
+		}
+		&__left-block {
+			justify-content: center;
+			margin-top: 0px;
+			max-width: 450px;
+			font-size: 16px;
+			height: 110px;
+		}
+		&__address {
+			margin-bottom: 0px;
+			font-size: 16px;
+		}
+		&__center-block {
+			height: 110px;
+			justify-content: center;
+			margin-top: 0px;
+			width: 450px;
+		}
+		&__title {
+			margin-bottom: 10px;
+		}
+		&__right-block {
+			height: 110px;
+			margin-top: 0px;
+			max-width: 450px;
+			font-size: 16px;
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column-reverse;
+			justify-content: center;
+		}
+		&__list-of-soc-net {
+			right: 50px;
+			top: 0;
+			margin-top: 0px;
+			// margin-bottom: 30px;
+			margin-left: 0px;
+			width: 100px;
+			display: flex;
+			// border: 1px solid #000;
+			justify-content: space-between;
+		}
+		&__tel-num {
+			margin-top: 60px;
+			position: absolute;
+			right: 35px;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+		}
+	}
+	.footer-logo {
+		&__img {
+			margin-bottom: 10px;
+			width: 64px;
+			height: 42px;
+		}
+	}
+	.whatsapp {
+		&__img {
+			height: 20px;
+			width: 20px;
+		}
+	}
+	.telegram {
+		&__img {
+			width: 24px;
+			height: 20px;
+		}
+	}
+	.viber {
+		&__img {
+			width: 19px;
+			height: 20px;
+		}
+	}
+	.tel-num {
+		&__title {
+			margin-left: 0px;
+			margin-bottom: 10px;
+		}
+	}
+}
+@media screen and (max-width: 426px) {
+	.footer {
+		position: static;
+		width: 100%;
+		&__content {
+			min-height: 425px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			justify-content: center;
+		}
+		&__left-block {
+			justify-content: center;
+			margin-top: 0px;
+			max-width: 400px;
+			font-size: 14px;
+			height: 110px;
+		}
+		&__address {
+			margin-bottom: 0px;
+			font-size: 14px;
+		}
+		&__center-block {
+			height: 110px;
+			justify-content: center;
+			margin-top: 0px;
+			width: 400px;
+		}
+		&__title {
+			margin-bottom: 10px;
+		}
+		&__right-block {
+			height: 110px;
+			margin-top: 0px;
+			max-width: 400px;
+			font-size: 14px;
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column-reverse;
+			justify-content: center;
+		}
+		&__list-of-soc-net {
+			right: 50px;
+			top: 0;
+			margin-top: 0px;
+			// margin-bottom: 30px;
+			margin-left: 0px;
+			width: 100px;
+			display: flex;	
+			justify-content: space-between;
+		}
+		&__tel-num {
+			margin-top: 60px;
+			position: absolute;
+			right: 35px;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+		}
+	}
+	.footer-logo {
+		&__img {
+			margin-bottom: 10px;
+			width: 64px;
+			height: 42px;
+		}
+	}
+	.whatsapp {
+		&__img {
+			height: 20px;
+			width: 20px;
+		}
+	}
+	.telegram {
+		&__img {
+			width: 24px;
+			height: 20px;
+		}
+	}
+	.viber {
+		&__img {
+			width: 19px;
+			height: 20px;
+		}
+	}
+	.tel-num {
+		&__title {
+			margin-left: 0px;
+			margin-bottom: 10px;
+		}
+	}
+}
+@media screen and (max-width: 375px) {}
+@media screen and (max-width: 320px) {}
