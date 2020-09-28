@@ -283,15 +283,18 @@
 }
 @media screen and (max-width: 1025px) {
     .services {
-        height: 100vh;
+        min-height: 100vh;
         &__title {
             margin-top: 30px;
             margin-bottom: 15px;
-            font-size: 20px;
+            font-size: 25px;
         }
         &__link {
             padding-bottom: 30px;
             font-size: 14px;
+        }
+        &__text {
+            font-size: 23px;
         }
     }
     .slider {
@@ -347,10 +350,13 @@
         font-size: 16px;
         min-height: 380px;
     }
+    .slider__title {
+        font-size: 22px;
+    }
 }
 @media screen and (max-width: 769px) {
     .services {
-        height: 100vh;
+        min-height: 100vh;
         &__title {
             margin-top: 30px;
             margin-bottom: 15px;
@@ -414,22 +420,25 @@
 }
 @media screen and (max-width: 426px) {
     .services {
-        height: 100%;
+        min-height: 100%;
         &__title {
             margin-top: 30px;
             margin-bottom: 15px;
-            font-size: 20px;
+            font-size: 24px;
         }
         &__link {
             padding-bottom: 30px;
             font-size: 14px;
+        }
+        &__text {
+            font-size: 22px;
         }
     }
 }
 @media screen and (max-width: 376px) {}
 @media screen and (max-width: 321px) {
     .services {
-        height: 100%;
+        min-height: 100%;
         &__title {
             margin-top: 30px;
             margin-bottom: 15px;
@@ -438,6 +447,9 @@
         &__link {
             padding-bottom: 30px;
             font-size: 14px;
+        }
+        &__text {
+            // font-size: 24px;
         }
     }
     .slider {
@@ -491,7 +503,7 @@
         min-height: 380px;
     }
     .slider__title {
-        font-size: 13px;
+        font-size: 15px;
     }
     .slider__subtitle {
         font-size: 13px;

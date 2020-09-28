@@ -370,16 +370,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 1025px) {
   .services {
-    height: 100vh;
+    min-height: 100vh;
   }
   .services__title {
     margin-top: 30px;
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 25px;
   }
   .services__link {
     padding-bottom: 30px;
     font-size: 14px;
+  }
+  .services__text {
+    font-size: 23px;
   }
 
   .slider__button {
@@ -433,10 +436,14 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     min-height: 380px;
   }
+
+  .slider__title {
+    font-size: 22px;
+  }
 }
 @media screen and (max-width: 769px) {
   .services {
-    height: 100vh;
+    min-height: 100vh;
   }
   .services__title {
     margin-top: 30px;
@@ -499,21 +506,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 426px) {
   .services {
-    height: 100%;
+    min-height: 100%;
   }
   .services__title {
     margin-top: 30px;
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 24px;
   }
   .services__link {
     padding-bottom: 30px;
     font-size: 14px;
+  }
+  .services__text {
+    font-size: 22px;
   }
 }
 @media screen and (max-width: 321px) {
   .services {
-    height: 100%;
+    min-height: 100%;
   }
   .services__title {
     margin-top: 30px;
@@ -524,7 +534,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 30px;
     font-size: 14px;
   }
-
   .slider__button {
     font-size: 11px;
     letter-spacing: 1.24px;
@@ -575,7 +584,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .slider__title {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .slider__subtitle {

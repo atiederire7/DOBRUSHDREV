@@ -866,59 +866,6 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 500px;
 }
 
-@media screen and (min-width: 2559px) {
-  .watched {
-    height: 100vh;
-  }
-  .watched__title {
-    margin-top: 150px;
-    margin-bottom: 50px;
-    font-size: 50px;
-  }
-  .watched__link {
-    padding-bottom: 150px;
-    font-size: 24px;
-  }
-
-  .slider {
-    padding: 0 15px;
-    margin-bottom: 93px;
-  }
-  .slider__button {
-    font-size: 13px;
-    letter-spacing: 1.34px;
-    border-radius: 16px;
-    padding: 5px;
-  }
-
-  .slider__item_inner {
-    display: flex;
-    justify-content: space-between;
-    max-width: 302px;
-    margin: 0 auto;
-  }
-
-  .slider__img {
-    max-width: 246px;
-    max-width: 312px;
-  }
-
-  .slider .slick-arrow.slick-prev {
-    left: 0;
-    width: 36px;
-    height: 36px;
-  }
-
-  .slider .slick-arrow.slick-next {
-    width: 36px;
-    height: 36px;
-  }
-
-  .slider__item {
-    font-size: 20px;
-    min-height: 550px;
-  }
-}
 @media screen and (max-width: 1441px) {
   .watched__title {
     margin-top: 60px;
