@@ -3,6 +3,7 @@
 		// padding: 5px;
 	}
 	&__title {
+        margin-top: 100px;
 		text-align: center;
 		margin-bottom: 202px;
 		color: #282828;
@@ -159,7 +160,7 @@
 }
 @media screen and (min-width: 2559px) {
     .services {
-        height: 100vh;
+        min-height: 100vh;
         &__title {
             margin-top: 150px;
             margin-bottom: 50px;
@@ -213,11 +214,15 @@
         &__title {
             margin-top: 60px;
             margin-bottom: 40px;
-            font-size: 25px;
+            font-size: 30px;
+            margin-top: 120px;
         }
         &__link {
             padding-bottom: 60px;
             font-size: 16px;
+        }
+        &__text {
+            font-size: 26px;
         }
     }
     .slider {
@@ -233,6 +238,7 @@
         justify-content: space-between;
         max-width: 302px;
         margin: 0 auto;
+        max-width: 306px;
     }
     .slider__img {
         max-width: 246px;
@@ -241,9 +247,6 @@
     .slider {
         padding: 0 30px;
         margin-bottom: 63px;
-    }
-    .slider__item_inner {
-        max-width: 306px;
     }
     .slider__img {
         max-width: 306px;
@@ -356,11 +359,12 @@
 }
 @media screen and (max-width: 769px) {
     .services {
-        min-height: 100vh;
+        margin-bottom: 150px;
+        height: 800px;
         &__title {
-            margin-top: 30px;
+            margin-top: 100px;
             margin-bottom: 15px;
-            font-size: 20px;
+            font-size: 25px;
         }
         &__link {
             padding-bottom: 30px;
@@ -371,7 +375,6 @@
         &__button {
             font-size: 12px;
             letter-spacing: 1.34px;
-            // border-radius: 16px;
             padding: 3px;
         }
     }
@@ -420,7 +423,9 @@
 }
 @media screen and (max-width: 426px) {
     .services {
+        margin-top: 100px;
         min-height: 100%;
+        margin-bottom: 200px;
         &__title {
             margin-top: 30px;
             margin-bottom: 15px;
@@ -438,6 +443,7 @@
 @media screen and (max-width: 376px) {}
 @media screen and (max-width: 321px) {
     .services {
+        margin-top: 60px;
         min-height: 100%;
         &__title {
             margin-top: 30px;

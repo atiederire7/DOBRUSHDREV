@@ -20,7 +20,7 @@
 	font-style: normal;
 }
 @import "nullstyle";
-// @import "header";
+@import "header";
 @import "news-block1";
 @import "news-block2";
 @import "news-block3";
@@ -57,42 +57,42 @@
 }
 @media screen and (max-width: 1440px) {
 	.title {
-		padding-top: 200px;
+		padding-top: 100px;
 		padding-bottom: 54px;
 		font-size: 34px;
 	}
 }
 @media screen and (max-width: 1024px) {
 	.title {
-		padding-top: 200px;
+		padding-top: 100px;
 		padding-bottom: 40px;
 		font-size: 40px;
 	}
 }
 @media screen and (max-width: 768px) {
 	.title {
-		padding-top: 200px;
+		padding-top: 100px;
 		padding-bottom: 30px;
 		font-size: 36px;
 	}
 }
 @media screen and (max-width: 425px) {
 	.title {
-		padding-top: 200px;
+		padding-top: 100px;
 		padding-bottom: 20px;
 		font-size: 30px;
 	}
 }
 @media screen and (max-width: 375px) {
 	.title {
-		padding-top: 200px;
+		padding-top: 100px;
 		padding-bottom: 15px;
 		font-size: 22px;
 	}
 }
 @media screen and (max-width: 320px) {
 	.title {
-		padding-top: 200px;
+		padding-top: 90px;
 		padding-bottom: 10px;
 		font-size: 20px;
 	}

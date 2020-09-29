@@ -142,6 +142,7 @@
 }
 @media screen and (max-width: 1025px) {
 	.news-block3 {
+		margin-bottom: 80px;
 		&__content {
 			flex-wrap: wrap-reverse;
 		}
@@ -183,6 +184,7 @@
 }
 @media screen and (max-width: 769px) {
 	.news-block3 {
+		margin-bottom: 60px;
 		&__title {
 			margin: 0 auto;
 			padding-bottom: 30px;
@@ -208,6 +210,7 @@
 }
 @media screen and (max-width: 426px) {
 	.news-block3 {
+		margin-bottom: 40px;
 		&__title {
 			margin: 0 auto;
 			padding-bottom: 20px;
@@ -233,6 +236,7 @@
 }
 @media screen and (max-width: 376px) {
 	.news-block3 {
+		margin-bottom: 20px;
 		&__title {
 			font-size: 22px;
 			padding-bottom: 10px;
@@ -261,6 +265,7 @@
 }
 @media screen and (max-width: 321px) {
 	.news-block3 {
+		margin-bottom: 15px;
 		&__title {
 			font-size: 20px;
 			padding-bottom: 15px;

@@ -1,10 +1,11 @@
 .watched {
-	margin-bottom: 142px;
+    margin-bottom: 142px;
 	&__title {
 		margin-top: 100px;
 		margin-bottom: 50px;
 		font-size: 30px;
-		text-align: center;
+        text-align: center;
+        font-weight: 700;
 	}
 	&__link {
 		color: #e9b979;
@@ -225,10 +226,9 @@
 }
 @media screen and (max-width: 1025px) {
     .watched {
-        height: 100vh;
         &__title {
-            margin-top: 30px;
-            margin-bottom: 15px;
+            margin-top: 50px;
+            margin-bottom: 40px;
             font-size: 20px;
         }
         &__link {
@@ -253,6 +253,7 @@
         justify-content: space-between;
         max-width: 302px;
         margin: 0 auto;
+        min-height: 100px;
     }
     .slider__img {
         max-width: 246px;
@@ -292,10 +293,9 @@
 }
 @media screen and (max-width: 769px) {
     .watched {
-        height: 100vh;
         &__title {
-            margin-top: 30px;
-            margin-bottom: 15px;
+            margin-top: 60px;
+            margin-bottom: 55px;
             font-size: 20px;
         }
         &__link {
@@ -317,6 +317,7 @@
     }
     .slider__item_inner {
         max-width: 265px;
+        min-height: 100px;
     }
     .slider__img {
         max-width: 206px;
@@ -356,14 +357,15 @@
 }
 @media screen and (max-width: 426px) {
     .watched {
-        height: 100%;
+        margin-bottom: 0;
+        padding-bottom: 60px;
         &__title {
-            margin-top: 30px;
-            margin-bottom: 15px;
+            margin-top: 90px;
+            margin-bottom: 55px;
             font-size: 20px;
         }
         &__link {
-            padding-bottom: 30px;
+            padding-bottom: 0px;
             font-size: 14px;
         }
     }
@@ -371,14 +373,13 @@
 @media screen and (max-width: 376px) {}
 @media screen and (max-width: 321px) {
     .watched {
-        height: 100%;
         &__title {
-            margin-top: 30px;
-            margin-bottom: 15px;
+            margin-top: 40px;
+            margin-bottom: 20px;
             font-size: 20px;
         }
         &__link {
-            padding-bottom: 30px;
+            padding-bottom: 0px;
             font-size: 14px;
         }
     }
@@ -392,10 +393,11 @@
     }
     .slider {
         padding: 0 30px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
     .slider__item_inner {
         max-width: 235px;
+        max-height: 100px;
     }
     .slider__img {
         max-width: 176px;
