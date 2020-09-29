@@ -404,6 +404,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 34.4%;
 }
 .catalog__path {
+  margin-top: 60px;
   color: #686868;
   padding-top: 46px;
   font-weight: 700;
@@ -1286,6 +1287,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
   }
   .catalog__path {
+    margin-top: 0px;
     padding-top: 10px;
   }
   .catalog__filter {
